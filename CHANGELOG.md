@@ -3,13 +3,33 @@
 Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.18.3**: vloedgolven en stormvloeden, dijken om je kust te beschermen, en in de winter een duidelijker verschil tussen land en water. / *Tidal waves and storm floods, dikes to protect your coast, and a clearer contrast between land and water in winter.*
 - **0.19**: logistiek zonder vlaggen: dragers vertrekken vanuit de opslag, wegen maken ze sneller, je ziet de transportcapaciteit, en je begint met 5 dragers. / *Logistics without flags: carriers start from storage, roads make them faster, transport capacity is visible, you start with 5 carriers.*
+- **0.19** ook: werkers die zonder werk rondlopen of naar hun werk/huis gaan, lopen nu nog recht door het bos; dat wordt met de nieuwe logistiek opgelost. / *Also: idle workers walking to their job or home still go straight through forest; this is fixed with the new logistics.*
 - **0.19.1**: dieren in de wereld. / *Animals in the world.*
 - **0.19.2**: jagen. / *Hunting.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.18.3 — Stormvloeden, dijken en een beter leesbare winter (2026-10-28)
+Wensen van Mike.
+- **Stormvloeden en vloedgolven**: aan de kust kan het water toeslaan. De eerste vloed komt nooit in de eerste **20 minuten** (tussen 20 en 30 min, vast per seed), daarna hooguit één keer per **20 à 35 minuten**. Ongeveer één op de vier is een zwaardere **vloedgolf**. Alleen spelers met gebouwen tot 3 tegels van het water worden getroffen, telkens één kuststrook (8 tegels rond een kustgebouw). Alles is deterministisch: dezelfde seed geeft dezelfde vloeden, ook met meer processorkernen.
+- **Duidelijke waarschuwing**: **2 minuten** vooraf krijg je een melding ("Stormvloed op komst! Over 120 s…"), en op de kaart licht de bedreigde kuststrook blauw op met een aftellabel boven het midden.
+- **Schade**: hoe dichter bij het water, hoe meer: 60% (aan het water), 40% (2 tegels), 25% (3 tegels); een haven of scheepswerf +20%; een vloedgolf ×1⅓. Een beschadigd gebouw werkt trager (50% schade = cyclus 1,5× zo lang). Bij 100% is het **verwoest**: er blijft **puin** liggen (niets terug, voorraad weg), waar je pas weer kunt bouwen als je het puin sloopt of na 5 minuten. Een bouwplaats verliest de helft van zijn voortgang. Het HQ wordt nooit verwoest (max. 90%).
+- **Dijk** (nieuw gebouw, tab Opslag, ontgrendeld met *Scheepvaart*): **1 plank + 2 blokken**, bouwtijd 14 s, alleen aan de oever. Beschermt alles binnen **5 tegels**: één dijk houdt **driekwart** van de schade tegen, twee dijken **alles**. De dijk zelf vangt 15% (vloedgolf 30%) per vloed op en kan ook hersteld worden. Bij het plaatsen zie je het beschermde gebied groen op de grond; in het infopaneel staat het bereik.
+- **Herstellen**: het infopaneel van een beschadigd gebouw toont de schade en een knop **Herstellen** (per 25% schade 1 plank, per 50% 1 blok; 0,3 s per procent). Tijdens het herstel blijft het gebouw werken.
+- **AI**: een AI met een haven zet er twee dijken bij (als ze 2 planken en 3 blokken heeft) en herstelt beschadigde gebouwen; verder bouwt ze gewoon door.
+- **Opslaan**: vloeden, waarschuwingen, schade, herstel en puin zitten in de save. Oude saves laden gewoon (zonder vloeden); nieuwe spellen uit het menu hebben vloeden.
+- **Gebeurtenissignalen** voor de meldingskaarten (de interface koppelt ze later): o.a. kamp gezien, eerste etherkristal, rivaal gezien, tekort, water in je gebied, aanval/afgeslagen, gebouw veroverd/verloren, plundertocht onderweg, vloedwaarschuwing, dijk klaar.
+- Fix test `test_season_visuals` (rookpluimen volgen het grafische profiel).
+- Tests: `test_m18_3_floods` (schema, waarschuwing dan schade, verwoest + puin, dijk 1 en 2, herstel, save/load + oude save, AI met haven, 1 vs 8 draden, signalen).
+
+### Onverwacht/UI
+- Winter beter leesbaar: meren en zee worden in de winter diep leisteen/teal (bevroren ijs ook donker) en zijn duidelijk donkerder dan het besneeuwde land. Langs de kust ligt een bleke ijsrand met een smalle, donkere natte lijn.
+- Sneeuw is minder blauw: een neutraal gebroken wit op land, bomen, gras en wegen. De winterlucht en het licht zijn zachter en minder blauw.
+- Ertsheuvels in de sneeuw krijgen alleen een sneeuwkapje, zodat grijze rots en ertskleur zichtbaar blijven. Ze zijn ook minder eentonig: 3 vormvarianten, een eigen draaiing, een lichte kanteling, verschillende maten en een kleine kleurvariatie.
+- Verhaalteksten: elke bouwkaart begint zijn tooltip met een korte verhaalregel ("Velt bomen en levert stammen."), en het infopaneel toont onder de naam een korte beschrijving van het gebouw (nl/en).
+- Meldingskaarten rechtsonder: belangrijke gebeurtenissen (gebouw klaar, nieuw seizoen, koude huizen, schip te water of gezonken, plundertocht gelukt of mislukt, uitgeput werkgebied, onderzoek klaar, druk paadje, handel, winst en verlies) verschijnen als kleine kaart met icoon, titel en tekst. Gewone kaarten verdwijnen na 6 seconden; belangrijke (winter, koud huis, gezonken schip, einde spel) blijven staan tot je erop klikt. Hooguit 3 tegelijk. De kleine meldingen blijven zoals ze waren.
 
 ## 0.18.2.1 — Limieten, mijnen op de berg, terug naar het HQ en een levende roadmap (2026-10-28)
 Wensen van Mike.
