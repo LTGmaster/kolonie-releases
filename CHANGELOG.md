@@ -3,11 +3,18 @@
 Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
+- **0.19.0.3**: woningen hebben water, eten en warmte nodig; dragers halen goederen op bij verzamelaars; nieuwe balans van de techboom. / *Houses need water, food and warmth; carriers collect goods from gatherers; rebalanced tech tree.*
 - **0.19.1**: dieren in de wereld. / *Animals in the world.*
 - **0.19.2**: jagen. / *Hunting.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.0.2 — Logboeken delen en opgeruimde tests (2026-10-28)
+- **Logboeken automatisch delen** (wens Mike): bij het sluiten van het spel, of bij de volgende start na een crash, maakt Kolonie een zip met de logbestanden (godot.log, kolonie_detail.log met de [Perf]- en [Spike]-regels), het crashrapport en een kort prestatierapport (CPU, GPU, Windows-versie, RAM, resolutie, grafisch profiel, threads, gemiddelde FPS, 1%-low, aantal haperingen), plus spelversie en seed. Gebruikersnamen in paden worden `<user>`. Alleen met toestemming: de eerste start vraagt het, en in Instellingen staat de schakelaar 'Logboeken automatisch delen'. Lukt het uploaden niet, dan blijft de zip in de wachtrij (max 5 zips, elk max 5 MB) en probeert het spel het later opnieuw. Geen geheimen in het spel; de ontvanger (`[share] endpoint`) staat standaard uit tot hij is ingericht (zie `tools/report_receiver`). Ophalen en samenvatten: `tools/fetch_reports.sh`.
+- Fix: geen engine-fouten meer in de tests van de meldingskaarten en verhaalteksten ('Parameter "m" is null' bij afsluiten zonder scherm, ontbrekende meta 'focus' bij een kaart zonder doel).
+- Fix: `test_vloed_visuals` kan zonder scherm niet meer blijven hangen (waakhond).
+- Test: `test_log_share`.
 
 ## 0.19.0.1 — Opgeruimde logistiek, meldingskaarten en vloedbeelden (2026-10-28)
 Goedgekeurd door Mike.
