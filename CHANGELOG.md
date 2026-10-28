@@ -3,12 +3,17 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19.2.1**: oude saves laden zonder foutmelding, kleinere automatische UI-schaal en namen voor je steden. / *Loading saves from the previous release, a smaller automatic UI scale and town names.*
 - **0.19.3**: overstap naar Godot 4.4 (nieuwere engine: stabielere grafische drivers, snellere shaders). / *Upgrade to Godot 4.4.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **0.20**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.2.1 — Laden, UI-schaal en stadsnamen (2026-10-28)
+- **Laden werkt weer**: saves uit een vorige release (bv. autosaves van 0.19.1/0.19.1.1) werden geweigerd met "controle-hash klopt niet", waardoor 'Laden' niets leek te doen. De controle gebeurt nu over de opgeslagen gegevens zelf; een mislukte poging toont nu ook een venster. / *Loading works again: saves from an earlier release were rejected by the checksum, so 'Load' appeared to do nothing. A failed load now shows a dialog.*
+- **UI-schaal Automatisch kleiner**: op 1920x1080 komt Automatisch nu overeen met het vroegere 75% (schaalt mee met de vensterhoogte). Wie Automatisch gebruikt krijgt de nieuwe waarde; handmatige keuzes blijven. / *Automatic UI scale is smaller: at 1920x1080 it now matches the former 75%; manual choices are kept.*
+- **Stadsnamen**: bij een nieuw spel kies je de naam van je stad (willekeurige suggestie, 2–24 tekens). Verover je een stad, dan kies je 'Naam behouden' of 'Nieuwe naam'; de AI kiest zelf. De naam staat in de bovenbalk en boven het hoofdkwartier en wordt bewaard (oude saves krijgen een gegenereerde naam). / *Town names: name your starting town (random suggestion, 2–24 characters); when you conquer a town choose 'Keep name' or 'New name'; AI names its towns itself. Shown in the top bar and above the HQ, stored in saves.*
+- Tests: `test_m19_2_x_load` (save uit 0.19.1 als fixture), `test_m19_2_x_towns`.
 
 ## 0.19.2 — Jagen en minder GPU-last (2026-10-28)
 - **Nieuw gebouw: jagershut** (bij wild in de buurt): de jager jaagt op de wilde dieren in zijn straal en brengt **vlees**, dat in de woonhuizen als eten telt naast vis. Kuddes slinken door de jacht en groeien langzaam terug. De AI bouwt ook jagershutten. Productielimiet per type werkt ook hier. / *New building: hunter's hut — hunts wild animals for meat (food next to fish); herds shrink and regrow.*
