@@ -1,9 +1,8 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.19.2. / *Updated with version 0.19.2.*
+Bijgewerkt bij versie 0.19.2.1. / *Updated with version 0.19.2.1.*
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19.2.1**: oude saves laden zonder foutmelding, kleinere automatische UI-schaal en namen voor je steden. / *Loading saves from the previous release, a smaller automatic UI scale and town names.*
 - **0.19.3**: overstap naar Godot 4.4 (nieuwere engine: stabielere grafische drivers, snellere shaders). / *Upgrade to Godot 4.4.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
