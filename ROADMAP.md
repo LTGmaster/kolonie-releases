@@ -1,9 +1,8 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.19.2.2. / *Updated with version 0.19.2.2.*
+Bijgewerkt bij versie 0.19.3. / *Updated with version 0.19.3.*
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19.3**: overstap naar Godot 4.4 (nieuwere engine: stabielere grafische drivers, snellere shaders). / *Upgrade to Godot 4.4.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **0.20**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
