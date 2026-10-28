@@ -3,10 +3,19 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
-- **0.20**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
+- **0.21**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.20 — Wilde paarden (2026-10-28)
+- **Wilde paarden**: elke speler heeft een kudde wilde paarden op open land vlak bij het startgebied. / *Wild horses: every player has a herd of wild horses on open land near the start area.*
+- **Nieuw gebouw: Paardenstal** (3 planken, 1 blok, 1 hout): temt wilde paarden binnen zijn straal en brengt ze naar je opslag. Zijn er geen paarden in de buurt, dan meldt de stal "geen wilde paarden binnen straal". Een kudde groeit maar langzaam terug. / *New building: Horse stable. It tames wild horses in range and brings them to your storage.*
+- **Paarden maken dragers sneller**: vanaf 3 paarden in de opslag lopen je dragers sneller, vanaf 8 paarden nog sneller. De tooltip bij Transport toont het aantal paarden en de snelheid in tegels per seconde. / *Horses speed up carriers: faster from 3 horses in storage, faster still from 8. The Transport tooltip shows the count and the speed.*
+- De AI volgt dezelfde regels: zij bouwt een stal als er paarden in haar gebied lopen. / *The AI uses the same rules.*
+- **Oude saves**: bij het laden krijgen alle spelers hun paardenkudde erbij. / *Old saves get their horse herds when loaded.*
+- **Lichtere fotoscan-modellen** (hoofdkwartier, opslag, houthakker, steengroeve, rotsen): ze worden bij het laden eenmalig vereenvoudigd, zonder zichtbaar verschil (minder dan 0,1% van de pixels wijkt af, van dichtbij bekeken). Gebouwen tellen 67% minder driehoeken (126k naar 41k). / *Photoscan props are simplified once at load time, with no visible difference. Buildings have 67% fewer triangles.*
+- **'Wat is er nieuw' opent vanzelf** bij de eerste start van een nieuwe versie. Het toont altijd de wijzigingen die bij deze versie horen; online wordt alleen de roadmap bijgewerkt. / *'What's new' opens by itself on the first start of a new version and always shows the changes bundled with that version.*
+- Tests: `test_m20_horses`, `test_changelog_dev`, `test_autotest` (afbreken), `test_m19_3_engine` (save van 0.19.2.1 laadt met paarden, 1 en 8 draden gelijk).
 
 ## 0.19.3 — Godot 4.4 (2026-10-28)
 - **Het spel draait nu op Godot 4.4.1** (was 4.3): nieuwere engine met stabielere grafische drivers en renderer-fixes. Je saves van 0.19.2.x laden gewoon en het spel rekent er exact hetzelfde mee verder (getest: zelfde controle-hash na 2000 ticks als onder 4.3). / *The game now runs on Godot 4.4.1; saves from 0.19.2.x load and play on identically.*
@@ -18,7 +27,6 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 ## 0.19.2.2 — Hotfix: crash bij bouwen, updatecontrole (2026-10-28)
 - **Crash opgelost** (bug Mike: spel sloot meteen af bij het plaatsen van een smederij, ook eerder midden in een spel in 0.19.1; Windows-fout 0xc0000005). Oorzaak: de balkjes boven de woonhuizen (water/eten/warmte) vroegen iconen op die niet bestonden; in de Windows-versie leidde dat tot een harde crash zodra het eerste eigen woonhuis met behoeften in beeld kwam. De iconen komen nu uit de juiste bron en ontbreken nooit meer. / *Fixed a crash (0xc0000005) shortly after building, caused by missing icons for the house-needs bars.*
 - **Updatecontrole**: "Updatecontrole mislukt (http_403)" bij elke start kwam door de limiet van GitHub (60 aanvragen per uur per internetadres). Bij 403/429 kijkt het spel nu via de gewone releasepagina (zonder die limiet) of er een nieuwe versie is. / *Update check no longer fails with http_403 (GitHub rate limit): falls back to the release page.*
-- Intern: verborgen testmodus voor ontwikkelaars (alleen met een sleutel, voor spelers onzichtbaar). Tests: `test_house_needs_icons`, `test_autotest`, `test_updater` uitgebreid.
 
 ## 0.19.2.1 — Laden, UI-schaal en stadsnamen (2026-10-28)
 - **Laden werkt weer**: saves uit een vorige release (bv. autosaves van 0.19.1/0.19.1.1) werden geweigerd met "controle-hash klopt niet", waardoor 'Laden' niets leek te doen. De controle gebeurt nu over de opgeslagen gegevens zelf; een mislukte poging toont nu ook een venster. / *Loading works again: saves from an earlier release were rejected by the checksum, so 'Load' appeared to do nothing. A failed load now shows a dialog.*
