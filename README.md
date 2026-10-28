@@ -19,6 +19,22 @@
 
 ---
 
+## De wereld
+Toen de Kroon van Ostrevaal brak, viel het rijk uiteen in de **Wijde Marken**: woeste grond waar wie durft te merken, mag blijven. Het **sigil**, gekerfd in grenspalen en torens, houdt een gebied vast. Maar het houdt alleen stand zolang er een ridder binnen zit. Diep onder de grond zingt het **etherkristal**: kostbaar, krachtig en de oorzaak van de **Etherkou**, die de winters hier meedogenloos maakt.
+
+## De volkeren
+- **Huis van de Eerste Kerf**: jouw volk. Ze zijn nuchter en volhardend en bouwen eerst een dak, dan pas een droom.
+- **Huis Brandaert**: volgens de overlevering trots en uit op uitbreiding.
+- **Huis Ysselmont**: in de verhalen van oudsher verbonden met de rivieren en de handel.
+- **Huis Wilgerode**: een stil huis met wortels in de bossen, zo wil de legende.
+- **De Splinterbroeders**: rovers die vanuit hun kampen plunderen wat onbewaakt blijft.
+- **Halverkade**: een neutrale handelsstad waar iedereen welkom is, zolang de vrede duurt.
+
+*De volkeren zijn achtergrondverhaal. In het spel spelen de rivaliserende huizen allemaal met dezelfde regels als jij; hun speelstijl hangt af van het gekozen AI-niveau (Makkelijk, Normaal, Moeilijk), niet van hun naam.*
+
+## Hoe je speelt
+Je kolonisten doen het werk; jij legt de lijnen. Verbind je gebouwen met wegen, laat goederen stromen en breid je grens uit met grens- en militaire gebouwen. Houd je huizen warm in de winter, vind etherkristal, verken rivieren, stuur schepen uit en sta sterk tegen rovers en rivaliserende huizen. Hieronder zie je wat het spel allemaal te bieden heeft.
+
 ## Kenmerken
 - **Kolonisten en dragers** — elk goed wordt echt gedragen, van vlag tot vlag. Dragers en depots houden je logistiek draaiende.
 - **Wegen** — zonder weg kan het ook, maar wegen (aarde → kasseien → verhard) maken je dragers flink sneller.
