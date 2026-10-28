@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Kolonie — Sigilmark" width="720">
+  <img src="docs/banner.png" alt="Sigilmark" width="720">
 </p>
 
-<h1 align="center">Kolonie — in de wereld van Sigilmark</h1>
+<h1 align="center">Sigilmark</h1>
 
 <p align="center">
   <a href="https://github.com/LTGmaster/kolonie-releases/releases/latest"><img src="https://img.shields.io/github/v/release/LTGmaster/kolonie-releases?label=nieuwste%20versie" alt="Nieuwste versie"></a>
@@ -13,7 +13,7 @@
 
 > Sigilmark is een rustig maar scherp bouwspel. De Kroon van Ostrevaal is gebroken en het land is van niemand. Jij leidt Huis van de Eerste Kerf: leg wegen, bouw daken en merk je grenzen met het sigil. Ondertussen trotseer je rovers, rivaliserende huizen en winters die tanden hebben. *Eerst een dak, dan een droom.*
 
-**Kolonie** is een trage, ketengebaseerde economie- en bouwgame in de geest van *De Kolonisten (Die Siedler)*, gemaakt in Godot 4 door LTGnetwork (België). Gratis te downloaden voor Windows.
+**Sigilmark** (tot versie 0.19.1.1 *Kolonie*) is een trage, ketengebaseerde economie- en bouwgame in de geest van *De Kolonisten (Die Siedler)*, gemaakt in Godot 4 door LTGnetwork (België). Gratis te downloaden voor Windows.
 
 **[⬇ Download de nieuwste versie](https://github.com/LTGmaster/kolonie-releases/releases/latest)** · [Wat is er nieuw](CHANGELOG.md) · [Roadmap](ROADMAP.md) · [English](#english)
 
@@ -59,9 +59,9 @@ Je kolonisten doen het werk; jij legt de lijnen. Verbind je gebouwen met wegen, 
 | *Schepen* | *Roverskampen* |
 
 ## Downloaden en installeren
-1. Ga naar de [nieuwste release](https://github.com/LTGmaster/kolonie-releases/releases/latest) en download `Kolonie-x.y.z-Setup.exe`.
+1. Ga naar de [nieuwste release](https://github.com/LTGmaster/kolonie-releases/releases/latest) en download `Sigilmark-x.y.z-Setup.exe`.
 2. Start de Setup en volg de stappen. Een nieuwe versie installeer je gewoon over de oude heen; je saves blijven bewaard.
-3. **Windows SmartScreen**: de installer is (nog) niet digitaal ondertekend, dus Windows kan "Windows heeft uw pc beschermd" tonen. Klik op *Meer info* → *Toch uitvoeren*. Download Kolonie alleen via deze pagina.
+3. **Windows SmartScreen**: de installer is (nog) niet digitaal ondertekend, dus Windows kan "Windows heeft uw pc beschermd" tonen. Klik op *Meer info* → *Toch uitvoeren*. Download Sigilmark alleen via deze pagina.
 
 ### Systeemvereisten
 - Windows 10 of 11 (64-bit)
@@ -86,7 +86,7 @@ Je kolonisten doen het werk; jij legt de lijnen. Verbind je gebouwen met wegen, 
 
 ## Feedback en problemen melden
 Bug gevonden of een idee? Open een [issue](https://github.com/LTGmaster/kolonie-releases/issues). Voeg bij voorkeur je versienummer en, bij een crash, de logbestanden toe uit
-`%APPDATA%\Ltgnetwork\Kolonie\logs\` (plak dat pad in de Verkenner). Een save uit de map `saves` helpt ook.
+`%APPDATA%\Ltgnetwork\Kolonie\logs\` (de map heet nog Kolonie; plak dat pad in de Verkenner). Een save uit de map `saves` helpt ook.
 
 ## Roadmap
 Wat er nog komt (jagen, wilde paarden temmen, een slimmere AI, tutorial, …): zie [ROADMAP.md](ROADMAP.md).
@@ -97,18 +97,18 @@ Wat er nog komt (jagen, wilde paarden temmen, een slimmere AI, tutorial, …): z
 - 3D-modellen en texturen: [Kenney](https://kenney.nl) en [Poly Haven](https://polyhaven.com) — CC0 1.0
 - Lettertypen: **Inter** en **Cinzel** (logo) — SIL Open Font License 1.1
 
-© 2026 LTGnetwork. Alle rechten voorbehouden. Kolonie is gratis te downloaden en te spelen voor persoonlijk gebruik; verspreiden, aanpassen of commercieel gebruik mag niet zonder schriftelijke toestemming van LTGnetwork. Externe assets behouden hun eigen licentie. Zie [LICENSE](LICENSE).
+© 2026 LTGnetwork. Alle rechten voorbehouden. Sigilmark is gratis te downloaden en te spelen voor persoonlijk gebruik; verspreiden, aanpassen of commercieel gebruik mag niet zonder schriftelijke toestemming van LTGnetwork. Externe assets behouden hun eigen licentie. Zie [LICENSE](LICENSE).
 
 ---
 
 ## English
-**Kolonie** (set in the world of *Sigilmark*) is a calm but sharp, chain-based colony builder inspired by *The Settlers*, made in Godot 4 by LTGnetwork (Belgium). Free for Windows.
+**Sigilmark** (called *Kolonie* up to 0.19.1.1) is a calm but sharp, chain-based colony builder inspired by *The Settlers*, made in Godot 4 by LTGnetwork (Belgium). Free for Windows.
 
 The Crown of Ostrevaal is broken and the land belongs to no one. Lead the House of the First Notch: lay roads, raise roofs and mark your borders with the sigil — while facing bandits, rival houses and winters with teeth. *First a roof, then a dream.*
 
 **Features:** settlers and carriers with depot logistics · roads as a speed bonus · houses that need water, food and warmth · tech tree · winter · rivers, floods and dikes · ships · bandit camps · AI opponents · wild animals (0.19.1) · autosave · Dutch and English.
 
-**Install:** download `Kolonie-x.y.z-Setup.exe` from the [latest release](https://github.com/LTGmaster/kolonie-releases/releases/latest) and run it. If SmartScreen warns (unsigned installer), click *More info* → *Run anyway*. Requires Windows 10/11 64-bit and a Vulkan-capable GPU. Controls: see the table above.
+**Install:** download `Sigilmark-x.y.z-Setup.exe` from the [latest release](https://github.com/LTGmaster/kolonie-releases/releases/latest) and run it. If SmartScreen warns (unsigned installer), click *More info* → *Run anyway*. Requires Windows 10/11 64-bit and a Vulkan-capable GPU. Controls: see the table above.
 
 **Feedback:** open an [issue](https://github.com/LTGmaster/kolonie-releases/issues); attach logs from `%APPDATA%\Ltgnetwork\Kolonie\logs\` if possible.
 
