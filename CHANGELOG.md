@@ -7,7 +7,17 @@ Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **0.19.2**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
+- **0.19.2**+: grafische prestaties op 'Hoog' nalopen (tot 5 miljoen driehoeken per frame in Mike's log) en de eenmalige haperingen bij het laden. / *Review graphics load on 'High' (up to 5 million triangles per frame) and one-off hitches while loading.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.1.1 — Hotfix: zoomen in de techboom, automatische UI-schaal (2026-10-28)
+- **Zoomen in de techboom zoomt de spelcamera niet meer mee** (bug Mike). Het muiswiel boven de techboom zoomt alleen de boom; ook touchpad-knijpen (pinch) en -schuiven werken nu in de boom zelf.
+- Hetzelfde geldt voor **alle schermen en panelen**: handelsscherm, plunderpaneel (roverskamp), pauzemenu met de instellingen, het einde-spel-paneel en elk HUD-element (balken, chips, gebouwpaneel) onder de muis. Zolang een schermvullend paneel open is, bewegen ook WASD/ZQSD en draaien (Q/E) de camera niet.
+- **UI-schaal 'Automatisch'** (nieuwe standaard, ook in het hoofdmenu): de grootte van menu's en panelen volgt het echte venster. Kleine vensters (onder 1280x720) worden niet meer extra vergroot, grote schermen worden compacter (1080p ±87%, 1440p ±79%, 4K ±68% van de basis), Windows-schaal (HiDPI) en DPI tellen mee; past zich live aan bij het vergroten/verkleinen van het venster. Handmatige percentages (75%–200%) blijven kiesbaar. Bestaande instellingen worden **eenmalig** op Automatisch gezet.
+- **Pauzemenu past altijd op het scherm**: maximaal 640 px hoog en scrollbaar als het venster te laag is (was: vulde een klein venster helemaal).
+- **Logbestanden**: frames die alleen traag zijn omdat het spel zichzelf afremt (15 FPS als het venster geen focus heeft of gepauzeerd is) worden niet meer als '[Spike]' gelogd (in Mike's log ~2000 loze regels in 4 minuten); `frames>50ms` in de [Perf]-regel telt ze ook niet meer.
+- Tests: `tools/runall_par.sh` sloot per ongeluk ook `test_m17_6_1` uit (naam begint met `test_m17_6`); nu draaien alle 95 tests.
+- Test: `test_ui_input_scale` (wiel en pinch met techboom/handel/plunderen/pauzemenu open: camerazoom ongewijzigd; zonder paneel zoomt het wiel wel; auto-schaal bij 800x450 t/m 8K, HiDPI, lage DPI; migratie; pauzemenu-hoogte).
 
 ## 0.19.1 — Wilde dieren (2026-10-28)
 - **Er leven nu wilde dieren in de wereld** (nieuwe spellen uit het menu): kuddes **herten**, **konijnen** en **wilde zwijnen** rond elke startplek, 16-44 tegels van het hoofdkwartier. Welke soort waar leeft hangt af van het landschap: zwijnen en herten in het bos, konijnen en herten op het gras. Elke kaart (seed) heeft zijn eigen, vaste kuddes.
