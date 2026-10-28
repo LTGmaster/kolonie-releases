@@ -4,8 +4,16 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 
 ## Binnenkort — Gepland / Coming soon
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
+- **0.21.1**: broodketen (graan, molen, bakker) via de technologie Landbouw; woonhuizen hebben 2 soorten voedsel nodig om volledig te groeien. / *Bread chain (grain, mill, bakery) via the Agriculture tech; houses need 2 kinds of food to grow to full size.*
+- **0.21.2**: varkensboerderij en slager via de technologie Veeteelt. / *Pig farm and butcher via the Animal husbandry tech.*
+- **0.21.3**: brouwerij en bier. Mijnen zonder voedsel werken gewoon door, alleen langzamer. / *Brewery and beer. Mines without food keep working, just slower.*
 - **0.21**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
+- **0.22**: multiplayer-server. / *Multiplayer server.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.20.0.4 — Hotfix vloed alleen aan zee (2026-10-28)
+- **Geen vloed meer bij binnenwater**: alleen rivieren en meren die via het water met de zee verbonden zijn, kunnen nog een stormvloed of vloedgolf krijgen. Binnenmeren, vijvers en rivieren zonder verbinding met de zee overstromen nooit. / *No more floods on inland water: only rivers and lakes connected to the sea by water can get a storm flood or tidal wave. Inland lakes, ponds and rivers without a sea connection never flood.*
+- De zeeverbinding wordt uit de kaart zelf berekend (deterministisch, geen extra GPU-last) en na het laden opnieuw bepaald, dus ook oude saves werken meteen goed. / *The sea connection is computed from the map itself (deterministic, no extra GPU cost) and recomputed after loading, so old saves are fixed too.*
 
 ## 0.20.0.3 — Veiligheid (2026-10-28)
 - **Saves strenger gecontroleerd**: een beschadigde of aangepaste save (verkeerde soorten gegevens, onmogelijke waarden, te groot of te diep genest) geeft nu de gewone melding "save is beschadigd" in plaats van een crash. Een save kan nooit objecten of scripts bevatten. / *Stricter save checks: a damaged or tampered save (wrong data types, impossible values, too large or too deeply nested) now shows the normal "save is damaged" message instead of crashing. A save can never contain objects or scripts.*
