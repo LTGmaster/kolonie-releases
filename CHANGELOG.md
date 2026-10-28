@@ -7,7 +7,18 @@ Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 - **0.19.2**: jagen. / *Hunting.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
+- **0.19.1**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.0.4 — Moeilijker: duurdere techboom, hongerige woningen (2026-10-28)
+- **Het spel is duidelijk moeilijker** (wens Mike: het ging te snel). Geldt voor nieuwe spellen (depot-logistiek met woningbehoeften); oude saves en klassieke spellen houden hun regels.
+- **Techboom duurder en trager dan vóór 0.19.0.3** (kosten ×1,35 naar boven afgerond, onderzoekstijd ×1,35): o.a. Productie I 9 planken + 3 blokken, 80 s (was 6+2, 60 s); Productie II 14+6, 120 s; Gilden 9+5, 80 s (0.19.0.3: 4+2, 45 s); Draagjuk 11+6, 120 s; Opslag I 7+2, 60 s; Kasseien 6 planken + 6 steen, 60 s; Verharding 9+6, 100 s; Ridders II 6 blokken + 3 zwaarden, 120 s; Scheepvaart 11+3, 80 s; Kolen 6+3, 60 s en **weer pas na Productie I**. Alle vereisten zoals vóór 0.19.0.3.
+- **Woningen hongeriger**: elk huis eet en drinkt elke 60 s (was 90 s) 1 vis en 1 water. Waarschuwing na 1 minuut tekort (was 2), kolonisten vertrekken na 2,5 minuten (was 4) en daarna elke 45 s (was 60 s).
+- **Bevolking groeit trager**: groei elke 60 s (was 30 s), +1 per twee voldane huizen (was +1 per huis); het HQ geeft alleen nog +1 als geen enkel huis groeit en er geen vrije kolonisten zijn (tegen vastlopen). Nieuwe dragers 'uit een vrije woonplek' hooguit één per minuut (aannemen uit vrije kolonisten blijft direct).
+- **Productie**: houthakker, zagerij, visser en mijn werken 15% trager. **Startvoorraad** 10 planken en 5 blokken (was 12 en 6).
+- **AI** speelt met dezelfde regels: begint eerder met onderzoek (na 4 i.p.v. 6 plan-stappen, marge 2 planken / 0 blokken), bouwt geen lege woonhuizen meer zolang er nog woonruimte vrij is. Gemeten (twee AI's, 20 min): 30 → 44-51 kolonisten (was 70-85), eerste onderzoek na ±15-16 min, niemand vertrokken.
+- Deterministisch (1 tegen 8 draden gelijk); geen nieuwe const-tabellen in werkdraden. Geen grafische wijzigingen.
+- Tests: balanstests bijgewerkt (`test_m19_0_3`, `test_m13`, `test_m13_1`, `test_m14`, `test_m12`, `test_techboom_ui`).
 
 ## 0.19.0.3 — Woningbehoeften, verzamelaars en techboom (2026-10-28)
 - **Woningen hebben water, eten en warmte nodig** (wens Mike, nieuwe spellen): elk woonhuis eet en drinkt elke 90 s 1 vis en 1 water; dragers vullen aan tot 2. Boven elk huis (en in het infopaneel) staan drie balkjes met iconen: water, eten, warmte. Alleen een huis waar aan alle drie voldaan is laat de bevolking groeien (het HQ blijft +1 geven). Na 2 minuten tekort komt een waarschuwing, na 4 minuten vertrekken er kolonisten (elke minuut één vrije kolonist).
