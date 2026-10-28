@@ -3,12 +3,18 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19.2**: jagen op de wilde dieren (jagershut, vlees als voedsel). / *Hunting the wild animals (hunter's hut, meat as food).*
+- **0.19.2.1**: oude saves laden zonder foutmelding, kleinere automatische UI-schaal en namen voor je steden. / *Loading saves from the previous release, a smaller automatic UI scale and town names.*
+- **0.19.3**: overstap naar Godot 4.4 (nieuwere engine: stabielere grafische drivers, snellere shaders). / *Upgrade to Godot 4.4.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
-- **0.19.2**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
-- **0.19.2**+: grafische prestaties op 'Hoog' nalopen (tot 5 miljoen driehoeken per frame in Mike's log) en de eenmalige haperingen bij het laden. / *Review graphics load on 'High' (up to 5 million triangles per frame) and one-off hitches while loading.*
+- **0.20**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.2 — Jagen en minder GPU-last (2026-10-28)
+- **Nieuw gebouw: jagershut** (bij wild in de buurt): de jager jaagt op de wilde dieren in zijn straal en brengt **vlees**, dat in de woonhuizen als eten telt naast vis. Kuddes slinken door de jacht en groeien langzaam terug. De AI bouwt ook jagershutten. Productielimiet per type werkt ook hier. / *New building: hunter's hut — hunts wild animals for meat (food next to fish); herds shrink and regrow.*
+- **Minder draw calls op 'Hoog'**: de eigenaarsvaandels bij gebouwen worden nu gebundeld getekend (per stuk kaart één keer i.p.v. één keer per gebouw, ook in de schaduwen) — in de testscène ±17-19% minder draw calls (bv. 1086 -> 923 dichtbij, 749 -> 584 midden), hetzelfde aantal driehoeken en hetzelfde beeld. / *Fewer draw calls on High (owner banners batched), same image.*
+- **Minder haperingen bij menu-start en laden**: de zware gebouwmodellen (fotoscan-props en LOD's, tot ±390 ms per model) worden nu al in het hoofdmenu op de achtergrond opgebouwd (werkdraad), het menu toont eerst het eenvoudige model. Ook de nieuwe vaandelvormen zitten in de shader-warm-up. / *Fewer one-off hitches: heavy building models are prepared in the background while in the main menu.*
+- Spelsimulatie ongewijzigd en deterministisch (alleen weergave). Tests: `test_m19_2_hunting`, `test_m19_2_gpu`; hulpscripts `tools/gpu_bench192.gd`, `tools/hitch_bench.gd`.
 
 ## 0.19.1.2 — Sigilmark en Directe levering (2026-10-28)
 - **Het spel heet nu Sigilmark** (was Kolonie): venstertitel, hoofdmenu, HUD, Windows-programma (`Sigilmark.exe`, nieuw icoon), installatie (`Sigilmark-0.19.1.2-Setup.exe`, snelkoppelingen, vermelding bij 'Apps') en updatecontrole. Het woord 'kolonie' als nederzetting blijft in de teksten. / *The game is now called Sigilmark.*
