@@ -1,6 +1,6 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.20.0.4. / *Updated with version 0.20.0.4.*
+Bijgewerkt bij versie 0.20.0.5. / *Updated with version 0.20.0.5.*
 
 ## Binnenkort — Gepland / Coming soon
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
