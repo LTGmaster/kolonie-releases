@@ -1,6 +1,6 @@
-# Kolonie — Roadmap
+# Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.19.1.1. / *Updated with version 0.19.1.1.*
+Bijgewerkt bij versie 0.19.1.2. / *Updated with version 0.19.1.2.*
 
 ## Binnenkort — Gepland / Coming soon
 - **0.19.2**: jagen op de wilde dieren (jagershut, vlees als voedsel). / *Hunting the wild animals (hunter's hut, meat as food).*
