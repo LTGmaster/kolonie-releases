@@ -7,6 +7,11 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **0.21**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
 
+## 0.20.0.1 — Nieuwe stijl en startscherm (2026-10-28)
+- **Nieuwe UI-stijl 'slanke plaques'**: één gedeeld thema voor het hele spel. Donkere halftransparante panelen met een gouden linkerrand, knoppen met duidelijke staten (normaal, hover, ingedrukt, uitgeschakeld, primair), plus nieuwe tooltips, tabs, dunne schuifregelaars, een gouden schakelaar en lijstrijen. Geen extra GPU-last. / *New 'slim plaques' UI style: one shared theme with dark translucent panels, a gold left edge, clear button states, new tooltips, tabs, slim sliders, a gold toggle and list rows. No extra GPU cost.*
+- **Nieuw startscherm**: de 3D-achtergrond blijft, de menuknoppen zijn nu losse plaques met een gouden icoon, en Afsluiten staat apart. / *New start screen: the 3D background stays, menu buttons are separate plaques with a gold icon, and Quit stands apart.*
+- **Echt Sigilmark-logo** in het menu, in de bovenbalk (naast de stadsnaam) en op het laadscherm. / *The real Sigilmark logo in the menu, the top bar (next to the town name) and on the loading screen.*
+
 ## 0.20 — Wilde paarden (2026-10-28)
 - **Wilde paarden**: elke speler heeft een kudde wilde paarden op open land vlak bij het startgebied. / *Wild horses: every player has a herd of wild horses on open land near the start area.*
 - **Nieuw gebouw: Paardenstal** (3 planken, 1 blok, 1 hout): temt wilde paarden binnen zijn straal en brengt ze naar je opslag. Zijn er geen paarden in de buurt, dan meldt de stal "geen wilde paarden binnen straal". Een kudde groeit maar langzaam terug. / *New building: Horse stable. It tames wild horses in range and brings them to your storage.*
