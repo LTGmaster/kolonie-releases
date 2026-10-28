@@ -1,6 +1,6 @@
 # Kolonie — Roadmap
 
-Bijgewerkt bij versie 0.19. / *Updated with version 0.19.*
+Bijgewerkt bij versie 0.19.0.1. / *Updated with version 0.19.0.1.*
 
 ## Binnenkort — Gepland / Coming soon
 - **0.19.1**: dieren in de wereld. / *Animals in the world.*
