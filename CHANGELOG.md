@@ -3,12 +3,20 @@
 Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19.0.3**: woningen hebben water, eten en warmte nodig; dragers halen goederen op bij verzamelaars; nieuwe balans van de techboom. / *Houses need water, food and warmth; carriers collect goods from gatherers; rebalanced tech tree.*
 - **0.19.1**: dieren in de wereld. / *Animals in the world.*
 - **0.19.2**: jagen. / *Hunting.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.0.3 — Woningbehoeften, verzamelaars en techboom (2026-10-28)
+- **Woningen hebben water, eten en warmte nodig** (wens Mike, nieuwe spellen): elk woonhuis eet en drinkt elke 90 s 1 vis en 1 water; dragers vullen aan tot 2. Boven elk huis (en in het infopaneel) staan drie balkjes met iconen: water, eten, warmte. Alleen een huis waar aan alle drie voldaan is laat de bevolking groeien (het HQ blijft +1 geven). Na 2 minuten tekort komt een waarschuwing, na 4 minuten vertrekken er kolonisten (elke minuut één vrije kolonist).
+- **Verzamelaars laten ophalen**: houthakker, steengroeve, mijn, visser, waterput enzovoort: een vrije drager haalt de goederen op en de verzamelaar blijft werken. Is er geen drager vrij en is de uitvoer vol, dan brengt de werker de lading zelf naar de opslag en ligt de productie zolang stil (status 'brengt zelf weg').
+- **Techboom herbalanceerd** voor de nieuwe economie: Gilden (4 planken + 2 blokken, 45 s), Opslag I (4 + 1, 40 s), Draagjuk (6 + 3, 75 s), Kasseien (3 planken + 3 steen, 40 s), Verharding (5 + 3, 60 s); Kolen kan meteen (niet meer na Productie I), voor warmte in de winter. De AI onderzoekt Gilden en Kolen vroeg, begint al na de basiseconomie met onderzoek en houdt minder marge aan (4 planken, 2 blokken).
+- **AI** volgt dezelfde regels: bouwt vissers en extra waterbronnen voor zijn woonhuizen. Getest: twee AI's groeien in 20 minuten van 30 naar ruim 70 kolonisten, eerste onderzoek na ±8-10 minuten.
+- Oude saves en klassieke spellen: geen behoeften (zoals voorheen). Deterministisch, ook met 1 tegen 8 draden.
+- Fix determinisme: veldroutes lazen in werkdraden constante tabellen (Godot 4.3 is daar niet thread-safe), waardoor een drager bij 8 draden heel af en toe een andere route nam dan bij 1 draad (ook al in 0.19). Nu zonder gedeelde constanten; 1 tegen 8 draden blijft gelijk.
+- Test: `test_m19_0_3` (en aangepaste techboom-tests).
 
 ## 0.19.0.2 — Logboeken delen en opgeruimde tests (2026-10-28)
 - **Logboeken automatisch delen** (wens Mike): bij het sluiten van het spel, of bij de volgende start na een crash, maakt Kolonie een zip met de logbestanden (godot.log, kolonie_detail.log met de [Perf]- en [Spike]-regels), het crashrapport en een kort prestatierapport (CPU, GPU, Windows-versie, RAM, resolutie, grafisch profiel, threads, gemiddelde FPS, 1%-low, aantal haperingen), plus spelversie en seed. Gebruikersnamen in paden worden `<user>`. Alleen met toestemming: de eerste start vraagt het, en in Instellingen staat de schakelaar 'Logboeken automatisch delen'. Lukt het uploaden niet, dan blijft de zip in de wachtrij (max 5 zips, elk max 5 MB) en probeert het spel het later opnieuw. Geen geheimen in het spel; de ontvanger (`[share] endpoint`) staat standaard uit tot hij is ingericht (zie `tools/report_receiver`). Ophalen en samenvatten: `tools/fetch_reports.sh`.
