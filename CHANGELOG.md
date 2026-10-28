@@ -20,7 +20,7 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **Oude saves**: bij het laden krijgen alle spelers hun paardenkudde erbij. / *Old saves get their horse herds when loaded.*
 - **Lichtere fotoscan-modellen** (hoofdkwartier, opslag, houthakker, steengroeve, rotsen): ze worden bij het laden eenmalig vereenvoudigd, zonder zichtbaar verschil (minder dan 0,1% van de pixels wijkt af, van dichtbij bekeken). Gebouwen tellen 67% minder driehoeken (126k naar 41k). / *Photoscan props are simplified once at load time, with no visible difference. Buildings have 67% fewer triangles.*
 - **'Wat is er nieuw' opent vanzelf** bij de eerste start van een nieuwe versie. Het toont altijd de wijzigingen die bij deze versie horen; online wordt alleen de roadmap bijgewerkt. / *'What's new' opens by itself on the first start of a new version and always shows the changes bundled with that version.*
-- Tests: `test_m20_horses`, `test_changelog_dev`, `test_autotest` (afbreken), `test_m19_3_engine` (save van 0.19.2.1 laadt met paarden, 1 en 8 draden gelijk).
+- Tests: `test_m20_horses`, `test_changelog_dev`, `test_m19_3_engine` (save van 0.19.2.1 laadt met paarden, 1 en 8 draden gelijk).
 
 ## 0.19.3 — Godot 4.4 (2026-10-28)
 - **Het spel draait nu op Godot 4.4.1** (was 4.3): nieuwere engine met stabielere grafische drivers en renderer-fixes. Je saves van 0.19.2.x laden gewoon en het spel rekent er exact hetzelfde mee verder (getest: zelfde controle-hash na 2000 ticks als onder 4.3). / *The game now runs on Godot 4.4.1; saves from 0.19.2.x load and play on identically.*
