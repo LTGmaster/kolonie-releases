@@ -3,12 +3,21 @@
 Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19.1**: dieren in de wereld. / *Animals in the world.*
-- **0.19.2**: jagen. / *Hunting.*
+- **0.19.2**: jagen op de wilde dieren (jagershut, vlees als voedsel). / *Hunting the wild animals (hunter's hut, meat as food).*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
-- **0.19.1**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
+- **0.19.2**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.1 — Wilde dieren (2026-10-28)
+- **Er leven nu wilde dieren in de wereld** (nieuwe spellen uit het menu): kuddes **herten**, **konijnen** en **wilde zwijnen** rond elke startplek, 16-44 tegels van het hoofdkwartier. Welke soort waar leeft hangt af van het landschap: zwijnen en herten in het bos, konijnen en herten op het gras. Elke kaart (seed) heeft zijn eigen, vaste kuddes.
+- Dieren **grazen en zwerven** rustig rond hun leefgebied en blijven als kudde bij elkaar. Ze lopen om water, bergen, rotsen en gebouwen heen.
+- **Ze zijn schuw**: komt er een kolonist binnen 5 tegels, dan vlucht de hele kudde (twee keer zo snel) en komt daarna terug.
+- **Langzame aanwas**: een kudde die kleiner is geworden groeit elke 3 minuten met één dier tot de normale grootte; een uitgestorven kudde krijgt pas na 15 minuten weer een nieuw paar. (Jagen komt in 0.19.2.)
+- **Vogelzwermen** cirkelen boven een deel van de kuddes (alleen beeld).
+- Eigen low-poly modellen (geen nieuwe assets), één draw call per soort, alleen dieren in de buurt van de camera worden getekend: geen merkbare extra GPU-last.
+- Oude saves laden gewoon (zonder dieren). Deterministisch (1 tegen 8 draden gelijk), dieren in de save.
+- Test: `test_m19_1_animals` (spawn uit de seed, biotoop, gedrag, vluchten, aanwas, save/load, oude saves, 1 vs 8 draden, prestatie, weergave/culling).
 
 ## 0.19.0.4 — Moeilijker: duurdere techboom, hongerige woningen (2026-10-28)
 - **Het spel is duidelijk moeilijker** (wens Mike: het ging te snel). Geldt voor nieuwe spellen (depot-logistiek met woningbehoeften); oude saves en klassieke spellen houden hun regels.
