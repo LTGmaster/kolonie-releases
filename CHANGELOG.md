@@ -3,11 +3,17 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19.3**: overstap naar Godot 4.4 (nieuwere engine: stabielere grafische drivers, snellere shaders). / *Upgrade to Godot 4.4.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **0.20**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.3 — Godot 4.4 (2026-10-28)
+- **Het spel draait nu op Godot 4.4.1** (was 4.3): nieuwere engine met stabielere grafische drivers en renderer-fixes. Je saves van 0.19.2.x laden gewoon en het spel rekent er exact hetzelfde mee verder (getest: zelfde controle-hash na 2000 ticks als onder 4.3). / *The game now runs on Godot 4.4.1; saves from 0.19.2.x load and play on identically.*
+- **Minder GPU-werk in de schaduwen**: gebouwen en bomen/rotsen werpen hun schaduw nu met een eenvoudiger detailniveau (de schaduw zelf ziet er hetzelfde uit; in een testscène ±7% minder driehoeken, zelfde aantal draw calls). Onder 4.4 ook ±20-29% minder driehoeken per frame in de vaste benchmark. / *Less GPU work for shadows; same look.*
+- Lucht/mist ziet er hetzelfde uit als onder 4.3 (4.4 kleurde de lucht anders bij dezelfde instelling).
+- Kleine fix: geen foutmelding meer als het deel-logboeken-venster opent terwijl het menu al sluit.
+- Tests: `test_m19_3_engine` (save 0.19.2.1 van Godot 4.3 laden, hash gelijk, 2000 ticks verder gelijk, 1 en 8 draden).
 
 ## 0.19.2.2 — Hotfix: crash bij bouwen, updatecontrole (2026-10-28)
 - **Crash opgelost** (bug Mike: spel sloot meteen af bij het plaatsen van een smederij, ook eerder midden in een spel in 0.19.1; Windows-fout 0xc0000005). Oorzaak: de balkjes boven de woonhuizen (water/eten/warmte) vroegen iconen op die niet bestonden; in de Windows-versie leidde dat tot een harde crash zodra het eerste eigen woonhuis met behoeften in beeld kwam. De iconen komen nu uit de juiste bron en ontbreken nooit meer. / *Fixed a crash (0xc0000005) shortly after building, caused by missing icons for the house-needs bars.*
