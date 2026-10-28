@@ -3,13 +3,25 @@
 Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **0.19**: logistiek zonder vlaggen: dragers vertrekken vanuit de opslag, wegen maken ze sneller, je ziet de transportcapaciteit, en je begint met 5 dragers. / *Logistics without flags: carriers start from storage, roads make them faster, transport capacity is visible, you start with 5 carriers.*
-- **0.19** ook: werkers die zonder werk rondlopen of naar hun werk/huis gaan, lopen nu nog recht door het bos; dat wordt met de nieuwe logistiek opgelost. / *Also: idle workers walking to their job or home still go straight through forest; this is fixed with the new logistics.*
 - **0.19.1**: dieren in de wereld. / *Animals in the world.*
 - **0.19.2**: jagen. / *Hunting.*
 - **0.20**: wilde paarden temmen. / *Taming wild horses.*
 - **0.21**: een slimmere AI die zelf op verkenning gaat, plundert en handelt. / *A smarter AI that explores, raids and trades on its own.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19 — Logistiek zonder vlaggen (2026-10-28)
+Goedgekeurd door Mike.
+- **Dragers vertrekken vanuit de opslag**: het HQ en je opslagplaatsen (en havens) zijn het vertrekpunt. Een drager haalt het goed in de dichtstbijzijnde opslag die het heeft en loopt door het veld naar het gebouw (of de bouwplaats), en brengt productie naar de dichtstbijzijnde opslag. Je hoeft geen vlaggen meer te zetten of wegen te verbinden om iets geleverd te krijgen; elk gebouw in je eigen gebied is bereikbaar. Dragers lopen om bomen en rotsen heen (of laten ze eerst kappen/ruimen, zoals in 0.18.2.1).
+- **Wegen = snelheidsbonus**: een aarden weg is ongeveer 1,6× zo snel als gras, kasseien en verharde wegen nog sneller; dragers kiezen vanzelf de snelste route. Betaalde wegen worden door de wegploeg aangelegd (geen vaste wegdrager meer nodig).
+- **Transportcapaciteit zichtbaar**: in de bovenbalk staat **Dragers vrij/totaal** (rood als ze allemaal onderweg zijn); de tooltip toont hoeveel er onderweg zijn, de snelheid, het aantal goederen per tocht en de wegbonus.
+- **Je start met 5 dragers**. Elke **opslagplaats +2**, een **Dragersgilde +3** en snellere dragers; met het **draagjuk** nemen ze 2 goederen per tocht mee. De bouwer telt niet mee.
+- **Kolonisten zonder werk zwerven rond hun huis** (HQ en woonhuizen, hooguit 16 tegelijk in beeld, bij de AI 6). Alleen weergave: de simulatie verandert er niet door.
+- **Fix**: arbeiders die naar hun werk lopen en eenheden die naar huis gaan, lopen niet meer recht door bos en rotsen maar eromheen.
+- **Taal tijdens het spel** (wens Mike): het pauzemenu heeft nu ook de taalkeuze Nederlands/English; de wissel gebeurt meteen.
+- **Oude saves** laden gewoon en krijgen de nieuwe logistiek: vlaggen en wegen blijven liggen (wegen als snelheidsbonus), goederen die op vlaggen of bij wegdragers lagen gaan naar het HQ, en de dragers gaan terug in de pool. Er gaat niets verloren.
+- **AI**: speelt met hetzelfde systeem (dragers vanuit de opslag); haar wegen geven haar ook alleen snelheid.
+- Deterministisch: dezelfde seed geeft hetzelfde spel, ook met 1 of 8 werkdraden (routes worden parallel berekend met alleen lezen).
+- Tests: `test_m19_logistics` (start 5, bouwen en leveren zonder weg, capaciteit nooit overschreden, opslagplaats/gilde, wegbonus, looppaden om bos, zwervers, oude save omzetten zonder verlies, AI, 1 vs 8 draden), `test_pause_language`.
 
 ## 0.18.3 — Stormvloeden, dijken en een beter leesbare winter (2026-10-28)
 Wensen van Mike.
