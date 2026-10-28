@@ -9,6 +9,11 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **0.20**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
 
+## 0.19.2.2 — Hotfix: crash bij bouwen, updatecontrole (2026-10-28)
+- **Crash opgelost** (bug Mike: spel sloot meteen af bij het plaatsen van een smederij, ook eerder midden in een spel in 0.19.1; Windows-fout 0xc0000005). Oorzaak: de balkjes boven de woonhuizen (water/eten/warmte) vroegen iconen op die niet bestonden; in de Windows-versie leidde dat tot een harde crash zodra het eerste eigen woonhuis met behoeften in beeld kwam. De iconen komen nu uit de juiste bron en ontbreken nooit meer. / *Fixed a crash (0xc0000005) shortly after building, caused by missing icons for the house-needs bars.*
+- **Updatecontrole**: "Updatecontrole mislukt (http_403)" bij elke start kwam door de limiet van GitHub (60 aanvragen per uur per internetadres). Bij 403/429 kijkt het spel nu via de gewone releasepagina (zonder die limiet) of er een nieuwe versie is. / *Update check no longer fails with http_403 (GitHub rate limit): falls back to the release page.*
+- Intern: verborgen testmodus voor ontwikkelaars (alleen met een sleutel, voor spelers onzichtbaar). Tests: `test_house_needs_icons`, `test_autotest`, `test_updater` uitgebreid.
+
 ## 0.19.2.1 — Laden, UI-schaal en stadsnamen (2026-10-28)
 - **Laden werkt weer**: saves uit een vorige release (bv. autosaves van 0.19.1/0.19.1.1) werden geweigerd met "controle-hash klopt niet", waardoor 'Laden' niets leek te doen. De controle gebeurt nu over de opgeslagen gegevens zelf; een mislukte poging toont nu ook een venster. / *Loading works again: saves from an earlier release were rejected by the checksum, so 'Load' appeared to do nothing. A failed load now shows a dialog.*
 - **UI-schaal Automatisch kleiner**: op 1920x1080 komt Automatisch nu overeen met het vroegere 75% (schaalt mee met de vensterhoogte). Wie Automatisch gebruikt krijgt de nieuwe waarde; handmatige keuzes blijven. / *Automatic UI scale is smaller: at 1920x1080 it now matches the former 75%; manual choices are kept.*
