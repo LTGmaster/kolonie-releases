@@ -1,6 +1,6 @@
-# Wijzigingslog Kolonie
+# Wijzigingslog Sigilmark
 
-Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
+Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
 - **0.19.2**: jagen op de wilde dieren (jagershut, vlees als voedsel). / *Hunting the wild animals (hunter's hut, meat as food).*
@@ -9,6 +9,15 @@ Alle versies van Kolonie (Ltgnetwork). De nieuwste versie staat bovenaan.
 - **0.19.2**+: verder bijstellen van de strengere balans van 0.19.0.4 op basis van jullie ervaringen. / *Further tuning of the tougher 0.19.0.4 balance based on your feedback.*
 - **0.19.2**+: grafische prestaties op 'Hoog' nalopen (tot 5 miljoen driehoeken per frame in Mike's log) en de eenmalige haperingen bij het laden. / *Review graphics load on 'High' (up to 5 million triangles per frame) and one-off hitches while loading.*
 - **1.0**: verdere balans en geluid, een tutorial in het spel en meer talen. / *More balance and sound work, an in-game tutorial and more languages.*
+
+## 0.19.1.2 — Sigilmark en Directe levering (2026-10-28)
+- **Het spel heet nu Sigilmark** (was Kolonie): venstertitel, hoofdmenu, HUD, Windows-programma (`Sigilmark.exe`, nieuw icoon), installatie (`Sigilmark-0.19.1.2-Setup.exe`, snelkoppelingen, vermelding bij 'Apps') en updatecontrole. Het woord 'kolonie' als nederzetting blijft in de teksten. / *The game is now called Sigilmark.*
+- **Je saves, instellingen en logboeken blijven gewoon werken**: het spel gebruikt dezelfde map als voorheen (`%APPDATA%\Ltgnetwork\Kolonie`), er wordt niets verplaatst of gekopieerd.
+- **Bijwerken vanaf Kolonie**: de installatie (ook de automatische update vanuit het spel) verwijdert het oude `Kolonie.exe`, de oude snelkoppelingen in het startmenu en op het bureaublad (die op het bureaublad komt terug als 'Sigilmark') en de oude vermelding 'Kolonie' bij Apps. Sigilmark staat daarna in `Program Files\Ltgnetwork\Sigilmark`.
+- **Nieuw onderzoek 'Directe levering'** (wens Mike; tak Opslag, na Opslag I; 10 planken + 5 blokken, 100 s): dragers mogen goederen dan **rechtstreeks van een producent** (bv. houthakker) naar een gebouw brengen dat ze nodig heeft — bouwplaats, verwerker (zagerij, smidse...) of woonhuis — als dat korter is dan via de opslag. Anders gaat het zoals voorheen via de opslag. De AI onderzoekt het ook. / *New research 'Direct delivery': carriers bring goods straight from a producer to the building that needs them when that is shorter.*
+- Deterministisch (1 tegen 8 draden gelijk), werkt met save/load (effect volgt uit de techboom).
+- **Productielimiet geldt nu per gebouwtype** (wens Mike): verander je de limiet van één houthakker, dan geldt die voor al je houthakkers, ook voor nieuwe; zo voor elk type. Oude saves: per type wordt de limiet van het eerste gebouw overgenomen. / *Production limit now applies to all buildings of a type.*
+- Tests: `test_m19_1_2_direct` (zonder/met onderzoek, AI, save/load, 1 vs 8 draden), `test_m19_1_2_limits` (limiet per type, save/load, migratie), `test_m19_1_2_rename` (naam, gebruikersmap, export, installer, updater).
 
 ## 0.19.1.1 — Hotfix: zoomen in de techboom, automatische UI-schaal (2026-10-28)
 - **Zoomen in de techboom zoomt de spelcamera niet meer mee** (bug Mike). Het muiswiel boven de techboom zoomt alleen de boom; ook touchpad-knijpen (pinch) en -schuiven werken nu in de boom zelf.
