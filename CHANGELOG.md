@@ -4,13 +4,17 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 
 ## Binnenkort — Gepland / Coming soon
 - **0.20.1**: vernieuwde UI-stijl. / *Refreshed UI style.*
-- **0.21.3**: brouwerij en bier. / *Brewery and beer.*
 - **0.21.4**: rijhuis en stenen huis (ter plekke opwaarderen) en een zwaardere start (ongeveer 20 kolonisten, 4 dragers). / *Row house and stone house (upgrade in place) and a harder start (about 20 settlers, 4 carriers).*
 - **0.21.5**: herenhuis en minikasteel (1 per speler). / *Manor house and mini castle (1 per player).*
 - **0.21.6**: missiesysteem en campagnemissies 1 en 2. / *Mission system and campaign missions 1 and 2.*
 - **0.22**: multiplayer-server. / *Multiplayer server.*
 - **0.23**: campagnemissies 3 tot 5. / *Campaign missions 3 to 5.*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
+
+## 0.21.3 — Bier (2026-10-29)
+- **Brouwerij** (tab Voedsel, via de technologie Landbouw; 3 planken + 1 blok): brouwt van 1 graan en 1 water 1 bier in 30 seconden. / *Brewery (Food tab, via the Agriculture tech; 3 planks + 1 block): brews 1 beer from 1 grain and 1 water in 30 seconds.*
+- **Bier is een genotmiddel**: mijnen en kolenmijnen die bier krijgen, werken **25% sneller** (1 bier per werkcyclus; zonder bier werken ze gewoon op de normale snelheid). Dat telt op bij de bonus van eten. / *Beer is a luxury: mines and coal mines that get beer work **25% faster** (1 beer per work cycle; without beer they simply work at normal speed). This stacks with the food bonus.*
+- Bier heeft standaard een productielimiet van 20 en staat niet in de bovenbalk (wel in de voorraad). De computerspelers bouwen een brouwerij zodra ze een boerderij en mijnen hebben. / *Beer has a default production limit of 20 and is not in the top bar (it is in the stock). Computer players build a brewery once they have a farm and mines.*
 
 ## 0.21.2 — IJzer, paard en kar, veeteelt (2026-10-29)
 - **Metaalketen**: de nieuwe **smelterij** (3 planken + 3 blokken) smelt 1 erts met 1 kolen tot 1 ijzer in 24 seconden. De **smederij** smeedt nu van 1 ijzer en 1 plank een zwaard **of gereedschap**, zonder kolen. Gereedschap maakt ze alleen als je het nodig hebt (na Paard en kar), om en om met zwaarden. **IJzer vervangt erts** in alle kosten (lopende banden). Oude saves: erts en kolen die nog in een smederij lagen gaan terug naar het hoofdkwartier. / *Metal chain: the new **smelter** (3 planks + 3 blocks) smelts 1 ore with 1 coal into 1 iron in 24 seconds. The **smithy** now forges a sword **or tools** from 1 iron and 1 plank, without coal. It only makes tools when you need them (after Horse and cart), alternating with swords. **Iron replaces ore** in all costs (conveyor belts). Old saves: ore and coal still inside a smithy go back to the headquarters.*
