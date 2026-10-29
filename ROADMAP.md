@@ -1,10 +1,9 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.21.1.1. / *Updated with version 0.21.1.1.*
+Bijgewerkt bij versie 0.21.2. / *Updated with version 0.21.2.*
 
 ## Binnenkort — Gepland / Coming soon
 - **0.20.1**: vernieuwde UI-stijl. / *Refreshed UI style.*
-- **0.21.2**: metaalketen (smelterij: erts + kolen → ijzer; smederij: ijzer + plank → zwaard of gereedschap, zonder kolen; houtskoolbrander: 2 hout → 1 kolen via de technologie Houtskool; huizen stoken alleen kolen als er meer dan 4 in voorraad zijn; ijzer vervangt erts in de kosten), paard en kar (technologie Paard en kar na Draagjuk en een gebouwde paardenstal; wagenmakerij; een kar kost planken, ijzer en 1 paard, eet graan, vervoert 6 goederen, max. aantal karren = opslagplaatsen + 1) en Veeteelt (varkensboerderij en slager, na Jacht). / *Metal chain (smelter: ore + coal → iron; smithy: iron + plank → sword or tools, no coal; charcoal burner: 2 wood → 1 coal via the Charcoal tech; houses only burn coal with more than 4 in stock; iron replaces ore in costs), horse and cart (Horse and cart tech after Yoke and a built horse stable; cartwright; a cart costs planks, iron and 1 horse, eats grain, carries 6 goods, max carts = storehouses + 1) and Animal husbandry (pig farm and butcher, after Hunting).*
 - **0.21.3**: brouwerij en bier. / *Brewery and beer.*
 - **0.21.4**: rijhuis en stenen huis (ter plekke opwaarderen) en een zwaardere start (ongeveer 20 kolonisten, 4 dragers). / *Row house and stone house (upgrade in place) and a harder start (about 20 settlers, 4 carriers).*
 - **0.21.5**: herenhuis en minikasteel (1 per speler). / *Manor house and mini castle (1 per player).*
