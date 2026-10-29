@@ -1,6 +1,6 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.21.5.2. / *Updated with version 0.21.5.2.*
+Bijgewerkt bij versie 0.21.5.3. / *Updated with version 0.21.5.3.*
 
 ## Binnenkort — Gepland / Coming soon
 - **0.20.1**: vernieuwde UI-stijl. / *Refreshed UI style.*
