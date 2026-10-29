@@ -4,11 +4,15 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 
 ## Binnenkort — Gepland / Coming soon
 - **0.20.1**: vernieuwde UI-stijl. / *Refreshed UI style.*
-- **0.21.5**: herenhuis en minikasteel (1 per speler). / *Manor house and mini castle (1 per player).*
 - **0.21.6**: missiesysteem en campagnemissies 1 en 2. / *Mission system and campaign missions 1 and 2.*
 - **0.22**: multiplayer-server. / *Multiplayer server.*
 - **0.23**: campagnemissies 3 tot 5. / *Campaign missions 3 to 5.*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
+
+## 0.21.5 — Herenhuis en minikasteel (2026-10-29)
+- **Stadsrecht** (tak Economie, na Woningbouw; 10 planken + 8 blokken + 1 gereedschap, 90 s) ontgrendelt het **herenhuis**: verbouw een **rijhuis** (6 planken + 4 blokken + 2 steen) tot een deftig bakstenen huis voor **20 kolonisten**, maar alleen met **3 voedselsoorten of bier** (anders 10). Een herenhuis vraagt zelf 1 vat bier en drinkt er 1 per minuut. / *City rights (Economy branch, after Housing; 10 planks + 8 blocks + 1 tool, 90 s) unlocks the **manor house**: upgrade a **terraced house** (6 planks + 4 blocks + 2 stone) to a stately brick house for **20 settlers**, but only with **3 kinds of food or beer** (otherwise 10). A manor house asks for 1 barrel of beer itself and drinks 1 per minute.*
+- **Burcht** (na Stadsrecht + Isolatie; 12 blokken + 4 ijzer + 2 gereedschap, 120 s) ontgrendelt het **minikasteel**: verbouw een **herenhuis of stenen huis** (6 ijzer + 12 blokken + 10 steen + 4 gereedschap) tot een kleine burcht met **24 kolonisten** (vol met 2 voedselsoorten) en **4 extra dragers**. Het stookt, net als het stenen huis, maar 0,4x brandstof. **Maximaal 1 per speler.** / *Keep (after City rights + Insulation; 12 blocks + 4 iron + 2 tools, 120 s) unlocks the **mini castle**: upgrade a **manor house or stone house** (6 iron + 12 blocks + 10 stone + 4 tools) to a small keep with **24 settlers** (full with 2 kinds of food) and **4 extra carriers**. Like the stone house it burns only 0.4x fuel. **At most 1 per player.***
+- De computerspelers onderzoeken Stadsrecht en Burcht als laatste en slaan ze over zolang de grondstoffen ontbreken (ze blijven er niet op wachten). Ze bouwen hooguit één minikasteel en maken een herenhuis zodra er 3 voedselsoorten of bier zijn. / *Computer players research City rights and Keep last and skip them while resources are missing (they do not wait for them). They build at most one mini castle and make a manor house once they have 3 kinds of food or beer.*
 
 ## 0.21.4 — Rijhuis, stenen huis en een zwaardere start (2026-10-29)
 - **Woningbouw** (tak Economie, 8 planken + 4 blokken, 60 s) ontgrendelt het **rijhuis**: drie huisjes onder één dak voor **14 kolonisten**, maar alleen met **2 voedselsoorten** (anders 7). / *Housing (Economy branch, 8 planks + 4 blocks, 60 s) unlocks the **terraced house**: three cottages under one roof for **14 settlers**, but only with **2 kinds of food** (otherwise 7).*
