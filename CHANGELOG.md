@@ -9,6 +9,10 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **0.23**: campagnemissies 3 tot 5. / *Campaign missions 3 to 5.*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.21.5.2 — Licentieovereenkomst en privacyverklaring (2026-10-29)
+- **Licentieovereenkomst in de installatie**: de installatie toont nu na het welkomscherm de licentieovereenkomst (EULA) en privacyverklaring in het Nederlands en het Engels. Pas na het aanvinken van "Ik ga akkoord" kun je verder. De tekst wordt ook als **EULA.txt** in de installatiemap gezet (en bij het verwijderen weer gewist). / *Licence agreement in the installer: after the welcome screen the installer now shows the end-user licence agreement (EULA) and privacy notice in Dutch and English. You can only continue after ticking "I accept". The text is also installed as **EULA.txt** in the installation folder (and removed on uninstall).*
+- **Duidelijkere toestemmingsvraag voor het delen van logboeken**: de vraag en de tooltip zeggen nu eerlijk wat er meegaat: geen naam of account, wel technische gegevens (ook je IP-adres, dat de server ziet), met een verwijzing naar EULA.txt. Delen blijft uit tot je zelf toestemming geeft. / *Clearer consent question for sharing logs: the question and tooltip now state honestly what is sent: no name or account, but technical data (including your IP address, seen by the server), with a reference to EULA.txt. Sharing stays off until you consent.*
+
 ## 0.21.5.1 — Hotfix pauzemenu (2026-10-29)
 - **Pauzemenu breder en netjes uitgelijnd**: het menu is nu ongeveer 600 px breed (smaller als het venster klein is), de keuzelijsten (UI-schaal, taal, grafische kwaliteit, FPS-limiet) staan in één rechterkolom van gelijke breedte, en waarden zoals 80% en 1.0x raken de scrollbalk niet meer. / *Pause menu wider and neatly aligned: the menu is now about 600 px wide (narrower when the window is small), the dropdowns (UI scale, language, graphics quality, FPS limit) sit in one right-hand column of equal width, and values such as 80% and 1.0x no longer touch the scrollbar.*
 
