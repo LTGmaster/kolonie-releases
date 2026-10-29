@@ -4,12 +4,18 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 
 ## Binnenkort — Gepland / Coming soon
 - **0.20.1**: vernieuwde UI-stijl. / *Refreshed UI style.*
-- **0.21.4**: rijhuis en stenen huis (ter plekke opwaarderen) en een zwaardere start (ongeveer 20 kolonisten, 4 dragers). / *Row house and stone house (upgrade in place) and a harder start (about 20 settlers, 4 carriers).*
 - **0.21.5**: herenhuis en minikasteel (1 per speler). / *Manor house and mini castle (1 per player).*
 - **0.21.6**: missiesysteem en campagnemissies 1 en 2. / *Mission system and campaign missions 1 and 2.*
 - **0.22**: multiplayer-server. / *Multiplayer server.*
 - **0.23**: campagnemissies 3 tot 5. / *Campaign missions 3 to 5.*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
+
+## 0.21.4 — Rijhuis, stenen huis en een zwaardere start (2026-10-29)
+- **Woningbouw** (tak Economie, 8 planken + 4 blokken, 60 s) ontgrendelt het **rijhuis**: drie huisjes onder één dak voor **14 kolonisten**, maar alleen met **2 voedselsoorten** (anders 7). / *Housing (Economy branch, 8 planks + 4 blocks, 60 s) unlocks the **terraced house**: three cottages under one roof for **14 settlers**, but only with **2 kinds of food** (otherwise 7).*
+- **Isolatie** (tak Productie, 6 planken + 6 blokken, 60 s) ontgrendelt het **stenen huis**: **6 kolonisten**, maar elke kool of elk hout houdt het **2,5 keer zo lang** warm (ongeveer 0,4x brandstof). / *Insulation (Production branch, 6 planks + 6 blocks, 60 s) unlocks the **stone house**: **6 settlers**, but each coal or wood keeps it warm **2.5 times as long** (about 0.4x fuel).*
+- Je bouwt ze niet los: klik een afgebouwd woonhuis aan en kies **Verbouw tot …** (rijhuis 4 planken + 2 blokken + 1 hout, stenen huis 4 blokken + 2 steen). Het verbouwen duurt 30 seconden; de bewoners blijven wonen. / *You do not build them separately: click a finished house and choose **Upgrade to …** (terraced house 4 planks + 2 blocks + 1 wood, stone house 4 blocks + 2 stone). Upgrading takes 30 seconds; the residents stay.*
+- **Zwaardere start**: een nieuw spel begint met **20 vrije kolonisten** (was 24) en **4 dragers** (was 5). Oude saves houden hun kolonisten en 5 startdragers. / *Harder start: a new game begins with **20 free settlers** (was 24) and **4 carriers** (was 5). Old saves keep their settlers and 5 starting carriers.*
+- De computerspelers onderzoeken Woningbouw en Isolatie en verbouwen hun huizen (rijhuis met 2 voedselsoorten, anders stenen huis), één tegelijk en alleen als er genoeg planken en blokken overblijven. / *Computer players research Housing and Insulation and upgrade their houses (terraced house with 2 kinds of food, otherwise stone house), one at a time and only when enough planks and blocks remain.*
 
 ## 0.21.3 — Bier (2026-10-29)
 - **Brouwerij** (tab Voedsel, via de technologie Landbouw; 3 planken + 1 blok): brouwt van 1 graan en 1 water 1 bier in 30 seconden. / *Brewery (Food tab, via the Agriculture tech; 3 planks + 1 block): brews 1 beer from 1 grain and 1 water in 30 seconds.*
