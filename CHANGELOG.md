@@ -5,8 +5,13 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 ## Binnenkort — Gepland / Coming soon
 - **0.22.1**: multiplayer verfijnen: opnieuw verbinden na een onderbreking, opslaan en laden van een multiplayerspel, volledige weergave voor gasten (dragers, wegen, handel). / *Multiplayer polish: reconnect after a dropout, saving and loading a multiplayer game, full view for guests (carriers, roads, trade).*
 - **0.23**: campagnemissies 3 tot 5. / *Campaign missions 3 to 5.*
-- **Grafische fasen 2 tot 4**: verdere verbeteringen aan het uiterlijk van het spel (vervolg op de herkenbare gebouwen van 0.22.0.1). / *Graphics phases 2 to 4: further improvements to the look of the game (following the recognisable buildings of 0.22.0.1).*
+- **Grafische fasen 2 tot 4**: verdere verbeteringen aan het uiterlijk van het spel (vervolg op de herkenbare gebouwen van 0.22.0.1 en de ronde figuren van 0.22.0.4). / *Graphics phases 2 to 4: further improvements to the look of the game (following the recognisable buildings of 0.22.0.1 and the rounded figures of 0.22.0.4).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
+
+## 0.22.0.4 — Poppetjes op schaal, rond en met gewrichten (2026-10-30)
+- **Alles op schaal**: kolonisten zijn kleiner tegenover hun gebouwen, deuren zijn groot genoeg om door te lopen, wegen en sporen zijn smaller en karren, ossen, dieren en goederen op de vlaggen hebben de juiste maat. Werkers lopen hun gebouw echt in en uit. / *Everything to scale: colonists are smaller next to their buildings, doors are big enough to walk through, roads and tracks are narrower and carts, oxen, animals and goods on flags have the right size. Workers really walk in and out of their building.*
+- **Ronde figuren**: kolonisten, ridders en dieren zijn niet meer hoekig maar afgerond, met een ronde kop, taps toelopende armen en benen, helmen en maliën. / *Rounded figures: colonists, knights and animals are no longer blocky but rounded, with a round head, tapered arms and legs, helmets and mail.*
+- **Knieën en ellebogen**: armen en benen buigen nu bij het lopen, werken en vechten, ook bij dieren. De armen zitten mooi tegen de romp. Puur uiterlijk, het spel rekent hetzelfde. / *Knees and elbows: arms and legs now bend when walking, working and fighting, animals too. Arms sit neatly against the body. Purely visual, the game calculates the same.*
 
 ## 0.22.0.3 — Betere balans in de productieketens (2026-10-30)
 - **Geen gereedschapsslot meer**: de smederij maakt nu ook gereedschap als een technologie of opwaardering erom vraagt, zodat je niet meer vastloopt. Paard en kar vraagt geen gereedschap meer. / *No more tools deadlock: the smithy now also makes tools when a technology or upgrade needs them, so you no longer get stuck. Horse and cart no longer needs tools.*
