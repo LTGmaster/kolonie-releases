@@ -4,9 +4,17 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 
 ## Binnenkort — Gepland / Coming soon
 - **0.22.1**: multiplayer verfijnen: opnieuw verbinden na een onderbreking, opslaan en laden van een multiplayerspel, volledige weergave voor gasten (dragers, wegen, handel). / *Multiplayer polish: reconnect after a dropout, saving and loading a multiplayer game, full view for guests (carriers, roads, trade).*
+- **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
 - **0.23**: campagnemissies 3 tot 5. / *Campaign missions 3 to 5.*
 - **Grafische fasen 2 tot 4**: verdere verbeteringen aan het uiterlijk van het spel (vervolg op de herkenbare gebouwen van 0.22.0.1 en de ronde figuren van 0.22.0.4). / *Graphics phases 2 to 4: further improvements to the look of the game (following the recognisable buildings of 0.22.0.1 and the rounded figures of 0.22.0.4).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
+
+## 0.22.0.7 — Geluid en muziek (2026-10-30)
+- **Het spel klinkt**: je hoort je kolonisten werken waar de camera kijkt: hakken, zagen, hameren op de bouwplaats, smeden, de molen, vissen, boeren en mijnen, en ook dieren en gevechten. Hoe verder weg, hoe zachter; heel ver weg hoor je niets. / *The game has sound: you hear your colonists work where the camera looks: chopping, sawing, hammering on building sites, forging, the mill, fishing, farming and mining, plus animals and fights. The further away, the quieter; very far away you hear nothing.*
+- **Omgeving**: vogels in het bos, de wei in de zomer, water bij de kust, krekels 's nachts en wind in de winter, afhankelijk van waar je kijkt. / *Ambience: birds in the forest, the meadow in summer, water by the coast, crickets at night and wind in winter, depending on where you look.*
+- **Muziek**: eigen muziek in het menu, rustige stukken in vredestijd, winterse muziek in de winter en oorlogsmuziek als je aangevallen wordt, met een zachte overgang. / *Music: its own music in the menu, calm pieces in peacetime, wintry music in winter and war music when you are attacked, with a smooth crossfade.*
+- **Volume per soort**: in de opties stel je nu apart het volume in van muziek, effecten, omgeving en interface, naast het hoofdvolume. / *Volume per kind: in the options you can now set the volume of music, effects, ambience and interface separately, next to the master volume.*
+- **Licht voor laptops**: er klinken nooit te veel geluiden tegelijk (minder op de laagste grafische stand). Geluid verandert niets aan het spel, ook niet in multiplayer. / *Light on laptops: never too many sounds at once (fewer on the lowest graphics setting). Sound changes nothing in the game, multiplayer included.*
 
 ## 0.22.0.6 — Vis die opraakt, een grotere paardenweide en vlotter op laptops (2026-10-30)
 - **Meren raken leeg**: elk meer heeft een eigen visvoorraad (3 vis per watertegel, minstens 12, hoogstens 600). Vissers vangen hem leeg; daarna groeit hij langzaam terug (elke 30 seconden ongeveer 4% erbij, minstens 1 vis). De zee en rivieren die met de zee verbonden zijn, raken nooit leeg. / *Lakes run out: every lake has its own fish stock (3 fish per water tile, at least 12, at most 600). Fishers can empty it; then it slowly recovers (about 4% every 30 seconds, at least 1 fish). The sea and rivers connected to the sea never run out.*
