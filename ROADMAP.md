@@ -1,6 +1,6 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.22.0.13. / *Updated with version 0.22.0.13.*
+Bijgewerkt bij versie 0.22.0.14. / *Updated with version 0.22.0.14.*
 
 ## Binnenkort — Gepland / Coming soon
 - **0.22.1**: multiplayer verfijnen: opnieuw verbinden na een onderbreking, opslaan en laden van een multiplayerspel, volledige weergave voor gasten (dragers, wegen, handel). / *Multiplayer polish: reconnect after a dropout, saving and loading a multiplayer game, full view for guests (carriers, roads, trade).*
