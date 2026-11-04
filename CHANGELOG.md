@@ -1,6 +1,6 @@
 # Wijzigingslog Sigilmark
 
-Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
+
 
 ## Binnenkort — Gepland / Coming soon
 - **0.22.1**: multiplayer verfijnen: opnieuw verbinden na een onderbreking, opslaan en laden van een multiplayerspel, volledige weergave voor gasten (dragers, wegen, handel). / *Multiplayer polish: reconnect after a dropout, saving and loading a multiplayer game, full view for guests (carriers, roads, trade).*
