@@ -3,7 +3,7 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **Hierna (0.24.16)**: een autotest die alle spelregels nakijkt. / *Coming next (0.24.16): an autotest that checks all game mechanics.*
+- **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
@@ -17,6 +17,20 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.24.16 — Bierknoppen, zout en vruchtbare grond in beeld, lobby's (2026-11-04)
+- **Mijnpaneel**: kies het bier per mijn (0 tot 3 kroezen; standaard 1) met meters voor tempo en instortgevaar; een ingestorte mijn toont een strook met de resterende tijd en een eigen statusicoon. / *Mine panel: choose beer per mine (0 to 3 mugs; default 1) with speed and collapse-risk meters; a collapsed mine shows a strip with the time left and its own status icon.*
+- **Vruchtbare grond** is op de kaart te zien, met een meter bij het plaatsen van een boerderij. **Zout** staat in de statistieken, de huisbehoeften en de tevredenheid-tooltip. / *Fertile land shows on the map, with a meter when placing a farm. Salt appears in the stats, house needs and the happiness tooltip.*
+- **Lobby's**: wie bij een lopend spel aanklopt, blijft verbonden en ziet weer de lijst (met reden). De lijst toont de spelersnamen per lobby; een lobby aanmaken kan je afbreken; de ping naar de server wordt gemeten. / *Lobbies: joining a running game keeps you connected and back at the list (with a reason). The list shows player names per lobby; creating a lobby can be cancelled; the server ping is measured.*
+- **Autotest** (alleen met de dev-sleutel) speelt nu met alle nieuwe functies en geeft per spelmechaniek gelukt/niet gelukt met een cijfer. / *The autotest (dev key only) now plays with all new features and reports per game mechanic whether it was reached, with a number.*
+### UI
+- **Bier naar de mijnen in het mijnpaneel**: kies het bierniveau met 4 bolle knoppen (0 tot 3 kroezen, geen tekst; cijfers in de tooltip). Twee kleine meters met icoon tonen het tempo (houweel) en het instortgevaar (rotsblok). Een ingestorte mijn krijgt een rode strook met een aftelbalk en de herstelkosten (rood als je te weinig hebt). / *Beer for the mines in the mine panel: pick the beer level with 4 round buttons (0 to 3 mugs, no text; numbers in the tooltip). Two small meters with an icon show speed (pickaxe) and collapse risk (rock). A collapsed mine gets a red strip with a countdown bar and the repair costs (red when you are short).*
+- **Statusicoon "ingestort"**: boven een ingestorte mijn zweeft een dichtgestorte mijningang met rode ring (zelfde systeem als staking/schade, geen extra GPU-last). / *Status icon "collapsed": a caved-in mine entrance with a red ring floats above a collapsed mine (same system as strike/damage, no extra GPU load).*
+- Vruchtbare grond is te zien: iets rijker, donkerder groen gras (zachte rand, in de bestaande terreinkleur, geen extra GPU-last). Bij het plaatsen van een boerderij lichten de vruchtbare tegels in het werkgebied groen-goud op.
+- Boven de bouwgeest van de boerderij staat een kleine meter met een kiemplant-icoon (5 bolle blokjes) en klein eronder "Vruchtbaar N% · +X% sneller".
+- Nieuwe 3D-iconen voor zout (zak met zoutberg) en vruchtbare grond.
+- Zout staat in het statistiekenpaneel (direct na zout water), net als water en zout water.
+- Woonhuizen die zout willen krijgen een zoutrij in de behoeften: meter (hoeveel eetrondes het zout nog meegaat) en "+15 tevreden", met uitleg in de tooltip.
+- De tooltip van de tevredenheid heeft een zoutregel: "Zout (luxe, +15): N%" van de huizen.
 ## 0.24.15 — Bruggen over rivieren (2026-11-04)
 Alleen in een nieuw vrij spel en in multiplayer met "Nieuwe functies". / *Only in a new free game and in multiplayer with "New features".*
 - **Bruggen**: een rechte brug van oever naar oever over 1 tot 4 watervakjes in je eigen gebied. Kost per watervakje 3 planken en 2 steen en is meteen klaar. Dragers en wegen kunnen erover. Het bruggereedschap zelf komt van UI & Graphics. / *Bridges: a straight bridge from bank to bank over 1 to 4 water tiles in your own territory. Costs 3 planks and 2 stone per water tile and is ready at once. Carriers and roads can cross. The bridge tool itself comes from UI & Graphics.*
