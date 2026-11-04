@@ -3,7 +3,7 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **Hierna (0.24.14 tot 0.24.16)**: bier naar de mijnen (met instortgevaar), bruggen over rivieren en een autotest die alle spelregels nakijkt. / *Coming next (0.24.14 to 0.24.16): beer to the mines (with collapse risk), bridges over rivers and an autotest that checks all game mechanics.*
+- **Hierna (0.24.15 en 0.24.16)**: bruggen over rivieren en een autotest die alle spelregels nakijkt. / *Coming next (0.24.15 and 0.24.16): bridges over rivers and an autotest that checks all game mechanics.*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
@@ -17,6 +17,11 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.24.14 — Bier naar de mijnen (2026-11-04)
+Alleen in een nieuw vrij spel en in multiplayer met "Nieuwe functies". / *Only in a new free game and in multiplayer with "New features".*
+- Je kiest per ertsmijn of kolenmijn hoeveel bier ze krijgt: 0 tot 3 vaten per ronde (standaard 0). Elk vat maakt de mijn 20% sneller. / *Per ore or coal mine you choose how much beer it gets: 0 to 3 barrels per round (default 0). Each barrel makes the mine 20% faster.*
+- Meer bier = meer kans dat de mijn instort: 2%, 6% of 12% per ronde. Een ingestorte mijn ligt 90 seconden stil en wordt daarna hersteld met 2 planken en 2 steen uit je opslag. / *More beer = higher collapse risk: 2%, 6% or 12% per round. A collapsed mine is idle for 90 seconds, then repaired with 2 planks and 2 stone from your storage.*
+- Computerspelers en oude spellen houden het oude gedrag (bier als vaste versnelling, geen instorting). De knoppen in het mijnpaneel komen van UI & Graphics. / *Computer players and old games keep the old behaviour. The mine panel buttons come from UI & Graphics.*
 ## 0.24.13 — Vruchtbare grond en zout als luxe (2026-11-04)
 Alleen in een nieuw vrij spel en in multiplayer met "Nieuwe functies". / *Only in a new free game and in multiplayer with "New features".*
 - **Vruchtbare grond**: ongeveer 30% van het grasland ligt in vruchtbare vlekken. Een boerderij met alleen vruchtbare grond in haar straal oogst 40% sneller (naar verhouding minder bij minder vruchtbare grond). / *Fertile land: about 30% of grassland lies in fertile patches. A farm with only fertile land in range harvests 40% faster (proportionally less otherwise).*
