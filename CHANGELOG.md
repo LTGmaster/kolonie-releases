@@ -3,6 +3,7 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
+- **Hierna (0.24.8)**: meerdere lobby's op één server (lijst, aanmaken met naam, wachtwoord, slots en instellingen, meedoen, verlaten). Daarna (0.24.9): een Linux-serverversie zonder grafische kaart, met een sjabloon voor AMP (CubeCoder). / *Coming next (0.24.8): several lobbies on one server (list, create with name, password, slots and settings, join, leave). Then (0.24.9): a Linux server build without a graphics card, with a template for AMP (CubeCoder).*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
@@ -15,6 +16,12 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **Later**: balansideeën zoals wild dat opraakt, een tragere waterdrager in de winter, langer brandende houtskool en een vloedwaarschuwing in missie 4, plus prestatieverbeteringen voor zwakkere laptops. / *Later: balance ideas such as game that runs out, a slower water carrier in winter, longer-burning charcoal and a flood warning in mission 4, plus performance improvements for weaker laptops.*
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
+
+## 0.24.7 — Server speelt zelf mee (2026-11-04)
+### Nieuw
+- **Losse server met eigen spel**: een losse server (`--server`) rekent het spel nu zelf mee, zonder beeld. Daardoor kan hij wat eerder alleen de host-speler kon: spelers die wegvallen opnieuw laten aansluiten (hij stuurt de huidige toestand), een desync herstellen vanuit zijn eigen toestand, en het spel laten doorlopen als de beheerder weggaat. / *Dedicated server with its own game: a dedicated server (`--server`) now simulates the game itself, without graphics. So it can do what only the host player could before: let dropped players reconnect (it sends the current state), repair a desync from its own state, and keep the game running when the admin leaves.*
+- **Beheerder schuift door**: gaat de beheerder weg, dan wordt de speler met het laagste slot beheerder (start, snelheid). / *Admin passes on: if the admin leaves, the player with the lowest slot becomes admin (start, speed).*
+- **Standaardkeuzes**: een leeg spel blijft 10 minuten lopen (om terug te komen), daarna opent de server een nieuwe lobby met een nieuwe seed. `--relay-only` geeft het oude gedrag (alleen doorgeven, geen spel op de server). Een save laden op een losse server kan (nog) niet. / *Default choices: an empty game keeps running for 10 minutes (to come back), then the server opens a new lobby with a new seed. `--relay-only` gives the old behaviour (relay only, no game on the server). Loading a save on a dedicated server is not possible (yet).*
 
 ## 0.24.6 — Nieuwe functies in multiplayer (2026-11-04)
 ### Nieuw
