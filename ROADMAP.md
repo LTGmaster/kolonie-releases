@@ -1,8 +1,9 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.24.6. / *Updated with version 0.24.6.*
+Bijgewerkt bij versie 0.24.7. / *Updated with version 0.24.7.*
 
 ## Binnenkort — Gepland / Coming soon
+- **Hierna (0.24.8)**: meerdere lobby's op één server (lijst, aanmaken met naam, wachtwoord, slots en instellingen, meedoen, verlaten). Daarna (0.24.9): een Linux-serverversie zonder grafische kaart, met een sjabloon voor AMP (CubeCoder). / *Coming next (0.24.8): several lobbies on one server (list, create with name, password, slots and settings, join, leave). Then (0.24.9): a Linux server build without a graphics card, with a template for AMP (CubeCoder).*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
