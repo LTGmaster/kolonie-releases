@@ -1,9 +1,9 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.24.12. / *Updated with version 0.24.12.*
+Bijgewerkt bij versie 0.24.13. / *Updated with version 0.24.13.*
 
 ## Binnenkort — Gepland / Coming soon
-- **Hierna (0.24.13 tot 0.24.16)**: vruchtbare landbouwgrond, zout als luxe in huizen, bier naar de mijnen (met instortgevaar), bruggen over rivieren en een autotest die alle spelregels nakijkt. / *Coming next (0.24.13 to 0.24.16): fertile farmland, salt as a luxury in houses, beer to the mines (with collapse risk), bridges over rivers and an autotest that checks all game mechanics.*
+- **Hierna (0.24.14 tot 0.24.16)**: bier naar de mijnen (met instortgevaar), bruggen over rivieren en een autotest die alle spelregels nakijkt. / *Coming next (0.24.14 to 0.24.16): beer to the mines (with collapse risk), bridges over rivers and an autotest that checks all game mechanics.*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
