@@ -18,6 +18,12 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.24.0 — Opruimen techboom, weginfo en zout-hint (2026-11-04)
+### Nieuw
+- **Weginfo**: met wegslijtage aan toont de muis boven een weg het wegtype en hoe versleten hij is (bv. "Kasseiweg  slijtage 42%"). / *Road info: with road wear on, hovering a road shows its type and how worn it is (e.g. "Cobblestone road  wear 42%").*
+- **Zout-hint**: bij het plaatsen van een waterdrager op een plek met zout water staat boven de plaatsing "Zout water: bouw ook een zoutziederij". / *Salt hint: when placing a water carrier at a salt-water spot, the placement shows "Salt water: also build a salt boiling house".*
+- **Techboom opgeruimd**: gecontroleerd op resten van het oude vlaggensysteem. Geen enkel onderzoek, knop, tekst of voorwaarde verwijst nog naar vlaggen; alleen een ongebruikt intern effect ("vlagcapaciteit") is verwijderd. Spel en saves werken hetzelfde. / *Tech tree cleaned up: checked for leftovers of the old flag system. No research, button, text or prerequisite refers to flags any more; only an unused internal effect ("flag capacity") was removed. Game and saves behave the same.*
+
 ## 0.23.2 — Water: putten, oevers en zout water (2026-11-04)
 ### Nieuw
 - **Waterbalans**: de waterput werkt sneller (elke 24 in plaats van 36 seconden). Vuistregel in de tooltip: 1 waterdrager = 2 waterputten ≈ genoeg voor 1 bakkerij. / *Water balance: the well is faster (every 24 instead of 36 seconds). Rule of thumb in the tooltip: 1 water carrier = 2 wells ≈ enough for 1 bakery.*
