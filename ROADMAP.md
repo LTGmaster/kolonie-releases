@@ -1,6 +1,6 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.24.0. / *Updated with version 0.24.0.*
+Bijgewerkt bij versie 0.24.1. / *Updated with version 0.24.1.*
 
 ## Binnenkort — Gepland / Coming soon
 - **0.22.1**: multiplayer verfijnen: opnieuw verbinden na een onderbreking, opslaan en laden van een multiplayerspel, volledige weergave voor gasten (dragers, wegen, handel). / *Multiplayer polish: reconnect after a dropout, saving and loading a multiplayer game, full view for guests (carriers, roads, trade).*
@@ -8,7 +8,7 @@ Bijgewerkt bij versie 0.24.0. / *Updated with version 0.24.0.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
 - **0.23**: campagnemissies 3 tot 5 en betere tips voor de houtketen. / *Campaign missions 3 to 5 and better tips for the wood chain.*
-- **0.24**: ontzilting per huis via de techboom (huizen aan zee drinken zout water zonder zoutziederij); computerspelers met zout water. / *Desalination per house via the tech tree (houses by the sea drink salt water without a salt boiling house); computer players with salt water.*
+- **0.24.x**: paardenfokkerij; ontzilting per huis via de techboom (huizen aan zee drinken zout water zonder zoutziederij); computerspelers met zout water. / *Desalination per house via the tech tree (houses by the sea drink salt water without a salt boiling house); computer players with salt water.*
 - **0.24**: geluk en welzijn: taverne met bier en vlees, varkensboerderij, rijhuizen; tevreden kolonisten werken sneller, ontevreden kolonisten waarschuwen eerst en staken dan. Plus paarden fokken. / *Happiness and well-being: tavern with beer and meat, pig farm, row houses; happy settlers work faster, unhappy settlers warn first and then strike. Plus horse breeding.*
 - **0.25**: seizoenen met gevolgen (zomerdroogte, herfstplaag) telkens samen met een tegenmiddel, houtskoolbrander, etherkristal, marktcontracten met neutrale steden een verkenner die buiten de grenzen buit zoekt en woestijngebieden met diepe kloven die je alleen met bruggen oversteekt, maar met rijkere ertsvoorraden. / *Seasons with consequences (summer drought, autumn plague), always together with a remedy, charcoal burner, ether crystal, market contracts with neutral cities and a scout who searches for loot beyond the borders, and desert areas with deep canyons you can only cross with bridges, but with richer ore deposits.*
 - **Grafische fasen 2 tot 4**: verdere verbeteringen aan het uiterlijk van het spel (vervolg op de herkenbare gebouwen van 0.22.0.1 en de ronde figuren van 0.22.0.4). / *Graphics phases 2 to 4: further improvements to the look of the game (following the recognisable buildings of 0.22.0.1 and the rounded figures of 0.22.0.4).*
