@@ -1,9 +1,8 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.24.5. / *Updated with version 0.24.5.*
+Bijgewerkt bij versie 0.24.6. / *Updated with version 0.24.6.*
 
 ## Binnenkort — Gepland / Coming soon
-- **Hierna (0.24.6)**: nieuwe functies (geoloog, slijtage, zout water, geluk) ook in multiplayer, als lobby-instelling. / *Coming next (0.24.6): new features (geologist, wear, salt water, happiness) in multiplayer too, as a lobby setting.*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
