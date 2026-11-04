@@ -3,7 +3,6 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **Hierna (0.24.6)**: nieuwe functies (geoloog, slijtage, zout water, geluk) ook in multiplayer, als lobby-instelling. / *Coming next (0.24.6): new features (geologist, wear, salt water, happiness) in multiplayer too, as a lobby setting.*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
@@ -16,6 +15,12 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **Later**: balansideeën zoals wild dat opraakt, een tragere waterdrager in de winter, langer brandende houtskool en een vloedwaarschuwing in missie 4, plus prestatieverbeteringen voor zwakkere laptops. / *Later: balance ideas such as game that runs out, a slower water carrier in winter, longer-burning charcoal and a flood warning in mission 4, plus performance improvements for weaker laptops.*
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
+
+## 0.24.6 — Nieuwe functies in multiplayer (2026-11-04)
+### Nieuw
+- **Geoloog, wegslijtage, zout water en tevredenheid in multiplayer**: in de lobby kiest de host met de schakelaar "Nieuwe functies" of het spel ze gebruikt; de gasten zien de keuze meteen. Ze werken zoals in een vrij spel en gelden voor alle mensspelers. / *Geologist, road wear, salt water and happiness in multiplayer: in the lobby the host picks with the "New features" switch whether the game uses them; guests see the choice right away. They work as in a free game and apply to all human players.*
+- **Controle**: de controle die de spelwerelden tussen spelers vergelijkt, telt nu ook de staat van deze functies mee (onderzochte plekken, slijtage per weg, zoute waterputten, tevredenheid), zodat een verschil meteen gezien en hersteld wordt. / *Check: the check that compares the game worlds between players now also covers the state of these features (surveyed spots, wear per road, salty wells, happiness), so a difference is spotted and repaired at once.*
+- **Standaardkeuzes**: de schakelaar staat standaard aan (zoals een nieuw vrij spel). Computerspelers spelen zonder, net als solo. Een losse server (zonder host-speler) gebruikt altijd de standaard (aan). Bij een spel uit een save geldt wat in de save staat. / *Default choices: the switch is on by default (like a new free game). Computer players play without, as in solo. A dedicated server (without a host player) always uses the default (on). A game loaded from a save uses what is in the save.*
 
 ## 0.24.5 — Multiplayer: opnieuw verbinden, opslaan en herstel (2026-11-04)
 ### Nieuw
