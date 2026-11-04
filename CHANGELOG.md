@@ -3,7 +3,7 @@
 Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolonie). De nieuwste versie staat bovenaan.
 
 ## Binnenkort — Gepland / Coming soon
-- **Hierna (0.24.12 tot 0.24.16)**: klei en bakstenen (waterput via de techboom), vruchtbare landbouwgrond, zout als luxe in huizen, bier naar de mijnen (met instortgevaar), bruggen over rivieren en een autotest die alle spelregels nakijkt. / *Coming next (0.24.12 to 0.24.16): clay and bricks (water well via the tech tree), fertile farmland, salt as a luxury in houses, beer to the mines (with collapse risk), bridges over rivers and an autotest that checks all game mechanics.*
+- **Hierna (0.24.13 tot 0.24.16)**: vruchtbare landbouwgrond, zout als luxe in huizen, bier naar de mijnen (met instortgevaar), bruggen over rivieren en een autotest die alle spelregels nakijkt. / *Coming next (0.24.13 to 0.24.16): fertile farmland, salt as a luxury in houses, beer to the mines (with collapse risk), bridges over rivers and an autotest that checks all game mechanics.*
 - **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
@@ -17,6 +17,12 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.24.12 — Klei, bakstenen en de waterput (2026-11-04)
+Alleen in een nieuw vrij spel en in multiplayer met "Nieuwe functies"; oude saves en de campagne blijven gelijk. / *Only in a new free game and in multiplayer with "New features"; old saves and the campaign are unchanged.*
+- **Klei**: ligt op grasland tot 2 vakjes van het water (ongeveer de helft van die vakjes, vast per wereld). Raakt niet op. / *Clay lies on grassland within 2 tiles of water (about half of those tiles, fixed per world). It never runs out.*
+- **Kleigraver** (2 planken): graaft klei binnen 3 vakjes. **Steenbakkerij** (2 planken, 2 steen): 2 klei + 1 hout = 2 bakstenen. / *Clay digger (2 planks) digs clay within 3 tiles. Brick kiln (2 planks, 2 stone): 2 clay + 1 wood = 2 bricks.*
+- **Waterput** kan pas gebouwd worden na het onderzoek **Putbouw** (4 bakstenen, 4 planken; eerst een steenbakkerij bouwen). Tot dan haal je water met waterdragers. Computerspelers houden de put vrij. / *The water well needs the new research Well building (4 bricks, 4 planks; build a brick kiln first). Until then water comes from water carriers. Computer players keep the well.*
+- Iconen en modellen zijn tijdelijk; de echte komen van UI & Graphics. / *Icons and models are placeholders for now.*
 ## 0.24.11 — Huizen direct bouwen, wegen opwaarderen (2026-11-04)
 Alleen in een nieuw vrij spel en in multiplayer met 'Nieuwe functies'. / *Only in a new free game and in multiplayer with 'New features'.*
 ### Nieuw
