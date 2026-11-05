@@ -1,10 +1,9 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.24.21. / *Updated with version 0.24.21.*
+Bijgewerkt bij versie 0.24.22. / *Updated with version 0.24.22.*
 
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
-- **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
 - **Campagne**: campagnemissies 3 tot 5 en betere tips voor de houtketen. / *Campaign: campaign missions 3 to 5 and better tips for the wood chain.*
