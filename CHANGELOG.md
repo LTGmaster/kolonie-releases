@@ -15,6 +15,8 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.25.1 — Houtskool als warmte-upgrade (2026-11-05)
+- **Korter stoken, kolen lonen**: met "Nieuwe functies" warmt één hout of plank een huis nog 10 seconden, kolen (en houtskool) 35 seconden. De **houtskoolbrander** wordt zo de winter-upgrade. Zonder nieuwe functies blijven de oude tijden (90 / 180 s). / *Shorter burns, coal pays: with "New features" one wood or plank heats a house for 10 seconds, coal (and charcoal) for 35 seconds. The **charcoal burner** becomes the winter upgrade. Without new features the old times stay (90 / 180 s).*
 ## 0.25.0 — Zomerdroogte en herfstplaag (2026-11-05)
 - **Zomerdroogte**: met "Nieuwe functies" en seizoenen leveren putten en waterdragers in de zomer ongeveer 30% minder water, en graan groeit trager. Bouw meer waterputten (onderzoek Putbouw). / *Summer drought: with "New features" and seasons, wells and water carriers yield about 30% less water in summer, and grain grows slower. Build more wells (Well building research).*
 - **Herfstplaag**: zonder bescherming vreten ratten 30% van je graan in boerderijen en opslag. Onderzoek **Ongediertebestrijding** (katten) of bouw een **rattenval** of **graansilo**. / *Autumn plague: without protection, rats eat 30% of your grain in farms and storage. Research **Pest control** (cats) or build a **rat trap** or **grain silo**.*
