@@ -15,6 +15,8 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.25.5 — Woestijn en kloven (2026-11-05)
+- **Woestijnchunks**: met "Nieuwe functies" verschijnen verder van je start woestijngebieden met droge grond, diepe kloven (extra waterstroken — bruggen!) en rijkere erts- en kolenaders (×2). / *Desert chunks: with "New features", farther from your start desert areas appear with dry ground, deep canyons (extra water cuts — bridges!) and richer ore and coal veins (×2).*
 ## 0.25.4 — Padvinder buiten de grenzen (2026-11-05)
 - **Padvinder**: met "Nieuwe functies" onderzoek **Padvinderij** en bouw een padvinder. Die verkent buiten je gebied en vindt ruïnes, gecrashte karren of kisten (ether, zwaarden, planken). Risico op een hinderlaag — houd ridders in het HQ als escorte. / *Pathfinder: with "New features" research **Pathfinding** and build a pathfinder. It explores beyond your land and finds ruins, crashed carts or chests (ether, swords, planks). Ambush risk — keep knights in the HQ as escort.*
 ## 0.25.3 — Marktcontracten (2026-11-05)
