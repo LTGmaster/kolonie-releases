@@ -15,6 +15,10 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.25.6 — UI-API gaten (contracten / padvinder / techboom) (2026-11-05)
+- **Techboom**: `ongedierte` staat in kolom 3 (tak economie); iconen voor ongedierte / diepteprospectie / padvinderij. / *Tech tree: pest-control node in economy column; icons for the new bal techs.*
+- **Contracten (MP)**: lockstep-commando `contract_deliver`; `market_prices` neemt de contract-bierboost mee; `Events.contract_offer` geeft de stad mee. / *Contracts: MP deliver command; market prices include beer boost; offer event carries town.*
+- **Padvinder**: `pathfinder.sites` per speler; `Sim.pathfinder_info(b)` / `pathfinder_sites(o)`; `Events.pathfinder_loot` / `pathfinder_ambush` dragen `building_id`. / *Pathfinder sites per player; info API; events carry building id.*
 ## 0.25.5 — Woestijn en kloven (2026-11-05)
 - **Woestijnchunks**: met "Nieuwe functies" verschijnen verder van je start woestijngebieden met droge grond, diepe kloven (extra waterstroken — bruggen!) en rijkere erts- en kolenaders (×2). / *Desert chunks: with "New features", farther from your start desert areas appear with dry ground, deep canyons (extra water cuts — bridges!) and richer ore and coal veins (×2).*
 ## 0.25.4 — Padvinder buiten de grenzen (2026-11-05)
