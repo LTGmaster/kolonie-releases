@@ -4,7 +4,6 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
-- **Expeditieschip**: via de techboom; vaart op eigen risico door vijandelijk water, sticht een tweede kolonie, met havens die automatisch goederen tussen de kolonies aanvragen. / *Expedition ship: via the tech tree; sails through enemy water at your own risk, founds a second colony, with harbours that automatically request goods between colonies.*
 - **Agressieve roversdorpen**: roversdorpen die soldaten sturen tegen de speler en de computerspelers. / *Aggressive bandit villages: bandit villages that send soldiers against the player and the computer players.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
 - **Campagne**: campagnemissies 3 tot 5 en betere tips voor de houtketen. / *Campaign: campaign missions 3 to 5 and better tips for the wood chain.*
@@ -17,6 +16,9 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.24.22 — Expeditieschip (2026-11-05)
+- **Expeditieschip**: onderzoek **Expeditie** (ontsluiting, na Zeehandel) ontgrendelt een nieuw schip. Laad 3–6 kolonisten en goederen, kies een verre kust en sticht een tweede kolonie met een expeditiepost en eigen gebied. Op vijandelijk water is er risico op schade of verlies (deterministisch). Havens vragen daarna automatisch goederen tussen de kolonies. Alleen in een nieuw vrij spel en in multiplayer met "Nieuwe functies". / *Expedition ship: research Expedition (exploration, after Sea trade) unlocks a new ship. Load 3–6 settlers and goods, pick a distant coast and found a second colony with an outpost and its own land. In enemy waters there is a risk of damage or loss (deterministic). Harbours then automatically request goods between the colonies. Only in a new free game and in multiplayer with "New features".*
+- **Aankomst met bonus**: bij een geslaagde landing krijg je een startvoorraad (8 planken, 4 hout, 4 vis, 2 brood, 4 water) en een verhaalmelding. / *Arrival bonus: a successful landing grants a starting stock (8 planks, 4 wood, 4 fish, 2 bread, 4 water) and a story notice.*
 ## 0.24.21 — Bouwbalk-miniaturen en huis-API (2026-11-05)
 ### UI
 - **Bouwmenu met 3D-miniaturen**: de gebouwen in de bouwbalk zijn nu kleine 3D-miniaturen van de echte spelmodellen op een grasvoetstukje (vaste 3/4-hoek, eenmalig gebakken, geen extra GPU-last); vergrendelde gebouwen blijven herkenbaar maar gedimd. / *Build menu with 3D miniatures: buildings in the build bar are now small 3D miniatures of the real in-game models on a little grass base (fixed 3/4 view, baked once, no extra GPU load); locked buildings stay recognisable but dimmed.*
