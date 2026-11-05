@@ -15,6 +15,8 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.25.3 — Marktcontracten (2026-11-05)
+- **Contracten met steden**: met "Nieuwe functies" bieden neutrale steden af en toe een klus: lever bv. 20 planken + 10 ijzer binnen 12 minuten. Lukt het, dan krijg je 15 etherkristal en een blijvend betere bierprijs in die stad. Mislukt het, dan houd je je goederen — alleen de beloning vervalt. / *Town contracts: with "New features", neutral towns occasionally offer a job: deliver e.g. 20 planks + 10 iron within 12 minutes. Succeed and you get 15 ether crystal and a lasting better beer price in that town. Fail and you keep your goods — only the reward is lost.*
 ## 0.25.2 — Etherkristal-prospectie (2026-11-05)
 - **Diepteprospectie**: met "Nieuwe functies" herkennen geologen etherkristal pas na het onderzoek **Diepteprospectie** (tier 3). Zonder dat onderzoek blijft ether verborgen (geen bordje, geen mijn erop). / *Deep prospecting: with "New features", geologists only recognise ether crystal after **Deep prospecting** (tier 3). Without that research ether stays hidden (no sign, no mine on it).*
 ## 0.25.1 — Houtskool als warmte-upgrade (2026-11-05)
