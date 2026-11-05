@@ -15,6 +15,8 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.25.2 — Etherkristal-prospectie (2026-11-05)
+- **Diepteprospectie**: met "Nieuwe functies" herkennen geologen etherkristal pas na het onderzoek **Diepteprospectie** (tier 3). Zonder dat onderzoek blijft ether verborgen (geen bordje, geen mijn erop). / *Deep prospecting: with "New features", geologists only recognise ether crystal after **Deep prospecting** (tier 3). Without that research ether stays hidden (no sign, no mine on it).*
 ## 0.25.1 — Houtskool als warmte-upgrade (2026-11-05)
 - **Korter stoken, kolen lonen**: met "Nieuwe functies" warmt één hout of plank een huis nog 10 seconden, kolen (en houtskool) 35 seconden. De **houtskoolbrander** wordt zo de winter-upgrade. Zonder nieuwe functies blijven de oude tijden (90 / 180 s). / *Shorter burns, coal pays: with "New features" one wood or plank heats a house for 10 seconds, coal (and charcoal) for 35 seconds. The **charcoal burner** becomes the winter upgrade. Without new features the old times stay (90 / 180 s).*
 ## 0.25.0 — Zomerdroogte en herfstplaag (2026-11-05)
