@@ -15,6 +15,9 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.25.0 — Zomerdroogte en herfstplaag (2026-11-05)
+- **Zomerdroogte**: met "Nieuwe functies" en seizoenen leveren putten en waterdragers in de zomer ongeveer 30% minder water, en graan groeit trager. Bouw meer waterputten (onderzoek Putbouw). / *Summer drought: with "New features" and seasons, wells and water carriers yield about 30% less water in summer, and grain grows slower. Build more wells (Well building research).*
+- **Herfstplaag**: zonder bescherming vreten ratten 30% van je graan in boerderijen en opslag. Onderzoek **Ongediertebestrijding** (katten) of bouw een **rattenval** of **graansilo**. / *Autumn plague: without protection, rats eat 30% of your grain in farms and storage. Research **Pest control** (cats) or build a **rat trap** or **grain silo**.*
 ## 0.24.25 — AI bouwt bruggen (2026-11-05)
 - **Computerspelers bouwen bruggen**: met "Nieuwe functies" zoekt de AI een rechte oversteek (1 tot 4 watervakjes) in haar eigen gebied en legt daar een brug (zelfde kosten als jij). Lukt een weg over water niet, dan probeert ze eerst een brug. / *Computer players build bridges: with "New features" the AI finds a straight crossing (1 to 4 water tiles) in its own land and builds a bridge (same cost as you). If a road across water fails, it tries a bridge first.*
 ## 0.24.24 — Brug, weg en huis in de UI (2026-11-05)
