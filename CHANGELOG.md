@@ -15,6 +15,13 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 - **1.0**: tutorial in het spel. / *In-game tutorial.*
 
+## 0.24.24 — Brug, weg en huis in de UI (2026-11-05)
+### UI
+- **Bruggereedschap**: in het bouwmenu onder Wegen staat nu Brug (alleen met de nieuwe functies). Klik een oever en dan de overkant: groen/rood voorbeeld, kosten als icoontjes en een lengtebalk (max. 4 watervakjes). / *Bridge tool: under Roads there is now Bridge (new features only). Click one bank then the other: green/red preview, cost icons and a length bar (max. 4 water tiles).*
+- **Brugmodel**: houten dek met leuningen op stenen pijlers (één mesh/surface). / *Bridge model: wooden deck with railings on stone piers (one mesh/surface).*
+- **Weg opwaarderen**: paneel ververst op Events (geen polling), slijtage als balkje, knop Naar onderzoek bij vergrendeling. / *Road upgrade: panel refreshes on Events (no polling), wear as a bar, Go to research when locked.*
+- **Huis-API**: tooltips en gebouwpaneel tonen huissoort (UI_HOUSE_KIND_*) en brandstofbonus (UI_TIP_HEAT_MULT); bewoners via Sim.house_info. / *House API: tooltips and building panel show house kind and fuel bonus; residents via Sim.house_info.*
+- **Statistiek**: EXTRA_GOODS/_extra_rates opgeruimd (clay/brick/salt/saltwater staan in Data.goods; saltwater ook in Sim.STATS_EXTRA). / *Stats: EXTRA_GOODS/_extra_rates cleaned up (clay/brick/salt/saltwater are in Data.goods; saltwater also in Sim.STATS_EXTRA).*
 ## 0.24.23 — Agressieve roversdorpen (2026-11-05)
 - **Agressieve roversdorpen**: roverskampen groeien na verloop van tijd en sturen raids tegen jou én de computerspelers. Je krijgt ~45 s van tevoren een waarschuwing. Drie typen: plundering, brandstichting en belegering; sommige kampen hebben een **roversleider** (zwaarder gevecht). Hoe vaker ze toeslaan, hoe korter de pauze. Leegplunderen van een kamp blijft lonen. Alleen in een nieuw vrij spel en in multiplayer met "Nieuwe functies". / *Aggressive bandit villages: camps grow over time and send raids against you and the computer players. You get ~45 s warning. Three types: looting, arson and siege; some camps have a bandit leader (tougher fight). The more they strike, the shorter the pause. Clearing a camp still pays. Only in a new free game and in multiplayer with "New features".*
 ## 0.24.22 — Expeditieschip (2026-11-05)
