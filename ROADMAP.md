@@ -1,11 +1,11 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.26.0. / *Updated with version 0.26.0.*
+Bijgewerkt bij versie 0.26.2. / *Updated with version 0.26.2.*
 
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
 - **Vrije plaatsing standaard aan** (bevestigd door Mike): ook vanaf 0.26.2 blijft vrije plaatsing standaard aan in elk nieuw vrij spel en in multiplayer met "Nieuwe functies", zoals sinds 0.26.0. Zelf plaatsen start dan vrij, met het raster als optie. / *Free placement on by default (confirmed): from 0.26.2 on, free placement stays on by default in every new free game and in multiplayer with "New features", as since 0.26.0. Placing yourself then starts free, with the grid as an option.*
-- **Vrije plaatsing, volgende fases**: plaatsingsghost met draaien en rasterknop (0.26.1), vrije vlaggen en wegen (0.26.2), vrije looppaden voor dragers en kolonisten (0.26.3), vloeiende gebiedsgrens en akkers (0.26.4), en daarna meerdere kleine gebouwen dicht bij elkaar (0.26.5). / *Free placement, next phases: placement ghost with rotation and grid toggle (0.26.1), free flags and roads (0.26.2), free walking paths for carriers and settlers (0.26.3), smooth territory border and fields (0.26.4), then several small buildings close together (0.26.5).*
+- **Vrije plaatsing, volgende fases**: plaatsingsghost met draaien en rasterknop (0.26.1), vrije looppaden voor dragers en kolonisten (0.26.3), vloeiende gebiedsgrens en akkers (0.26.4), en daarna meerdere kleine gebouwen dicht bij elkaar (0.26.5). / *Free placement, next phases: placement ghost with rotation and grid toggle (0.26.1), free walking paths for carriers and settlers (0.26.3), smooth territory border and fields (0.26.4), then several small buildings close together (0.26.5).*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
 - **Campagne**: campagnemissies 3 tot 5 en betere tips voor de houtketen. / *Campaign: campaign missions 3 to 5 and better tips for the wood chain.*
 - **Computerspelers**: tevredenheid en zout water ook voor de computerspelers (ze bouwen al taverne, paardenfokkerij en zoutziederij sinds 0.24.4). / *Computer players: happiness and salt water for computer players too (they already build taverns, horse studs and salt boiling houses since 0.24.4).*
