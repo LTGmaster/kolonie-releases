@@ -5,7 +5,6 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
 - **Vrije plaatsing standaard aan** (bevestigd door Mike): ook vanaf 0.26.2 blijft vrije plaatsing standaard aan in elk nieuw vrij spel en in multiplayer met "Nieuwe functies", zoals sinds 0.26.0. Zelf plaatsen start dan vrij, met het raster als optie. / *Free placement on by default (confirmed): from 0.26.2 on, free placement stays on by default in every new free game and in multiplayer with "New features", as since 0.26.0. Placing yourself then starts free, with the grid as an option.*
-- **Vrije plaatsing, volgende fase**: opruimen, overal standaard vrij (0.27.0). / *Free placement, next phase: clean-up, free everywhere by default (0.27.0).*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
 - **Campagne**: campagnemissies 3 tot 5 en betere tips voor de houtketen. / *Campaign: campaign missions 3 to 5 and better tips for the wood chain.*
 - **Computerspelers**: tevredenheid en zout water ook voor de computerspelers (ze bouwen al taverne, paardenfokkerij en zoutziederij sinds 0.24.4). / *Computer players: happiness and salt water for computer players too (they already build taverns, horse studs and salt boiling houses since 0.24.4).*
@@ -15,6 +14,10 @@ Alle versies van Sigilmark (Ltgnetwork; tot en met 0.19.1.1 heette het spel Kolo
 - **Later**: balansideeën zoals wild dat opraakt, een tragere waterdrager in de winter, langer brandende houtskool en een vloedwaarschuwing in missie 4, plus prestatieverbeteringen voor zwakkere laptops. / *Later: balance ideas such as game that runs out, a slower water carrier in winter, longer-burning charcoal and a flood warning in mission 4, plus performance improvements for weaker laptops.*
 - **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
 
+## 0.27.0 — Vrije plaatsing overal de standaard (2026-11-10)
+- **Overal vrij plaatsen**. Elk nieuw spel gebruikt nu vrije plaatsing: een vrij spel, multiplayer (met of zonder "Nieuwe functies") en ook de campagnemissies. Het raster blijft alleen nog voor oude saves, en die kun je nog steeds omzetten naar vrije plaatsing. Met G zie je het raster nog als hulplijn bij het plaatsen. / *Free placement everywhere. Every new game now uses free placement: a free game, multiplayer (with or without "New features") and the campaign missions too. The grid only remains for old saves, and you can still convert those to free placement. With G you still see the grid as a guide while placing.*
+- **Saves**: oude saves blijven zoals ze waren. / *Saves: old saves stay as they were.*
+### UI
 ## 0.26.7.1 — Vrije plaatsing: vlaggen, wegen en grens zelf zien; wegen krijgen voorrang (2026-11-10)
 - **Wegen krijgen voorrang** (keuze Mike). In een nieuw vrij spel nemen dragers en kolonisten liever de weg. Ze steken alleen nog door het veld als dat duidelijk korter is. Vrije saves uit 0.26.7 en eerder blijven zoals ze waren. / *Roads get priority (Mike's choice). In a new free game, carriers and settlers prefer the road. They only cut across the field when that is clearly shorter. Free saves from 0.26.7 and earlier stay as they were.*
 ### UI
