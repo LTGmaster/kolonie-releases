@@ -1,6 +1,6 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.26.6. / *Updated with version 0.26.6.*
+Bijgewerkt bij versie 0.26.7. / *Updated with version 0.26.7.*
 
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
