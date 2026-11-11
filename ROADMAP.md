@@ -1,6 +1,6 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.27.7. / *Updated with version 0.27.7.*
+Bijgewerkt bij versie 0.27.8. / *Updated with version 0.27.8.*
 
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
@@ -12,5 +12,6 @@ Bijgewerkt bij versie 0.27.7. / *Updated with version 0.27.7.*
 - **Computerspeler**: een computerspeler die zelf genoeg ridders maakt (kolen en zwaarden), zodat hij ook met een bewaakt hoofdkwartier kan aanvallen. / *Computer player: a computer player that makes enough knights itself (coal and swords), so it can attack while keeping its headquarters guarded.*
 - **Bergen verfijnen**: zachtere kloofranden waar rivieren door het hooggebergte lopen. / *Mountain polish: softer canyon edges where rivers run through high mountains.*
 - **Later**: balansideeën zoals wild dat opraakt, een tragere waterdrager in de winter, langer brandende houtskool en een vloedwaarschuwing in missie 4, plus prestatieverbeteringen voor zwakkere laptops. / *Later: balance ideas such as game that runs out, a slower water carrier in winter, longer-burning charcoal and a flood warning in mission 4, plus performance improvements for weaker laptops.*
-- **In ontwerp**: prospectie (verborgen afzettingen), koper (mijn, smelten, munten/gereedschap) en bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: prospecting (hidden deposits), copper (mine, smelting, coins/tools) and bridges (low and high, with or without passage for ships).*
+- **In ontwerp**: bruggen (laag en hoog, met of zonder doorvaart voor schepen). Koper (mijn, smelten, snelheid- en pantserupgrades) zit in 0.27.8. / *In design: bridges (low and high, with or without passage for ships). Copper (mine, smelting, speed and armour upgrades) is in 0.27.8.*
+
 
