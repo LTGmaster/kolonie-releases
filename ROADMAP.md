@@ -1,9 +1,10 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.27.13.1. / *Updated with version 0.27.13.1.*
+Bijgewerkt bij versie 0.28.0. / *Updated with version 0.28.0.*
 
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
+- **Spel zonder raster, stap voor stap**: na het fundament van 0.28.0 volgen gebouwen zonder tegelregels bij het plaatsen, nieuwe padvinding over vrije ruimte, wegen als vrije lijnen, bomen en grondstoffen als losse objecten, vloeiende gebiedsgrenzen, water en schepen, en een computerspeler die vrij bouwt. Elke stap komt eerst achter de schakelaar "Rastervrij (experimenteel)". / *A game without a grid, step by step: after the groundwork of 0.28.0 come buildings without tile rules when placing, new pathfinding over free space, roads as free lines, trees and resources as separate objects, smooth territory borders, water and ships, and a computer player that builds freely. Each step first comes behind the "Grid-free (experimental)" switch.*
 - **Vrije plaatsing standaard aan** (bevestigd door Mike): ook vanaf 0.26.2 blijft vrije plaatsing standaard aan in elk nieuw vrij spel en in multiplayer met "Nieuwe functies", zoals sinds 0.26.0. Zelf plaatsen start dan vrij, met het raster als optie. / *Free placement on by default (confirmed): from 0.26.2 on, free placement stays on by default in every new free game and in multiplayer with "New features", as since 0.26.0. Placing yourself then starts free, with the grid as an option.*
 - **Geluid verfijnen**: verbeterde omgevingslussen, meer dierengeluiden en geluid per gebouw verder afgestemd. / *Sound polish: improved ambience loops, more animal sounds and per-building sounds fine-tuned.*
 - **Campagne**: campagnemissies 3 tot 5 en betere tips voor de houtketen. / *Campaign: campaign missions 3 to 5 and better tips for the wood chain.*
