@@ -1,6 +1,6 @@
 # Sigilmark — Roadmap
 
-Bijgewerkt bij versie 0.27.8. / *Updated with version 0.27.8.*
+Bijgewerkt bij versie 0.27.9. / *Updated with version 0.27.9.*
 
 ## Binnenkort — Gepland / Coming soon
 - **Hierna**: zie de roadmap. / *Coming next: see the roadmap.*
@@ -12,6 +12,7 @@ Bijgewerkt bij versie 0.27.8. / *Updated with version 0.27.8.*
 - **Computerspeler**: een computerspeler die zelf genoeg ridders maakt (kolen en zwaarden), zodat hij ook met een bewaakt hoofdkwartier kan aanvallen. / *Computer player: a computer player that makes enough knights itself (coal and swords), so it can attack while keeping its headquarters guarded.*
 - **Bergen verfijnen**: zachtere kloofranden waar rivieren door het hooggebergte lopen. / *Mountain polish: softer canyon edges where rivers run through high mountains.*
 - **Later**: balansideeën zoals wild dat opraakt, een tragere waterdrager in de winter, langer brandende houtskool en een vloedwaarschuwing in missie 4, plus prestatieverbeteringen voor zwakkere laptops. / *Later: balance ideas such as game that runs out, a slower water carrier in winter, longer-burning charcoal and a flood warning in mission 4, plus performance improvements for weaker laptops.*
-- **In ontwerp**: bruggen (laag en hoog, met of zonder doorvaart voor schepen). Koper (mijn, smelten, snelheid- en pantserupgrades) zit in 0.27.8. / *In design: bridges (low and high, with or without passage for ships). Copper (mine, smelting, speed and armour upgrades) is in 0.27.8.*
+- **Hierna (schepen)**: 0.27.10 sterkere havenlijn, 0.27.11 uitgebreide zeegevechten; daarna altijd een oneindige kaart (behalve de tutorial). / *Next (ships): 0.27.10 a stronger harbour supply line, 0.27.11 expanded sea combat; after that the map is always infinite (except the tutorial).*
+- **In ontwerp**: bruggen (laag en hoog, met of zonder doorvaart voor schepen). / *In design: bridges (low and high, with or without passage for ships).*
 
 
